@@ -64,11 +64,11 @@ Details about the browser, its creators and a link to the repository where code 
 
 ## Above and Beyond stuff
 
-Caching
-easter eggs
-tabs
-History
-View Page Source
-Developer Tools
+- Caching
+- easter eggs
+- tabs
+- History
+- View Page Source
+- Developer Tools
 - Javascript output
 - assets loaded
