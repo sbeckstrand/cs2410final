@@ -1,8 +1,8 @@
 ## Web Browser Project
 
 #### Contributors:
-- Preston __
-- Logan __
+- Preston Bruner
+- Logan Smith
 - Stephen Beckstrand
 
 ---
