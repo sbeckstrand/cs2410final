@@ -4,6 +4,7 @@ public class Piece {
         // Value 99 is bomb
         // Value 100 is flag
 
+    /** --------------------------------------- PUBLIC METHODS ------------------------------------------------**/
     /**
      * Default constructor (Never really used in game, but here for testing)
      */
@@ -20,6 +21,15 @@ public class Piece {
         this.setMoveDistance(playerValue);
     }
 
+    pulic getValue() {
+        return this.value;
+    }
+
+    public int getMoveDistance() {
+        return this.moveDistance;
+    }
+
+    /** --------------------------------------- PRIVATE METHODS -----------------------------------------------**/
     /**
      * Method to set the move distance based on the value of the player
      * @param playerValue the player's value
