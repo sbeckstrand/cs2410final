@@ -21,7 +21,7 @@ public class Piece {
         this.setMoveDistance(playerValue);
     }
 
-    pulic getValue() {
+    public int getValue() {
         return this.value;
     }
 
