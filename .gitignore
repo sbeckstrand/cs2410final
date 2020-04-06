@@ -1,2 +1,4 @@
 .idea/
 cs2410final.iml
+out/
+.DS_Store
