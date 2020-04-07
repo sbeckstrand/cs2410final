@@ -1,6 +1,10 @@
 import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.concurrent.Task;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
@@ -9,6 +13,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.awt.*;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -167,6 +172,9 @@ public class ChatGui extends Application {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
                 BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(connectionSocket.getOutputStream()));
 
+                // TEST
+                handleInput(reader,chatWindow);
+
                 // Set button action to send message and display it on chat box
                 sendChat.setOnAction(e -> {
                     try {
@@ -187,6 +195,25 @@ public class ChatGui extends Application {
             writer.write(message);
             writer.flush();
         }
+        public void handleInput(BufferedReader nis, TextField tf) {
+            final Task<Void> task = new Task<Void>() {
+                @Override
+                protected Void call() throws Exception {
+                    String output;
+                    while ((output = nis.readLine()) != null) {
+                        final String value = output;
+                        Platform.runLater(new Runnable() {
+                            @Override
+                            public void run() {
+                                tf.setText(tf.getText() + value + "\n");
+                            }
+                        });
+                    }
+                    return null;
+                }
+            };
+            new Thread(task).start();
+        }
     }
 
     class ChatBotClient {
@@ -206,6 +233,10 @@ public class ChatGui extends Application {
 
             // Total chat vBox
             vB.getChildren().addAll(chatWindow,chatArea);
+
+            Scene s1 = new Scene(vB);
+            chatBotClient.setScene(s1);
+            chatBotClient.show();
 
             /** CHAT FUNCTIONALITY **/
             Socket socketClient = null;
