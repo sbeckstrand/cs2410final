@@ -7,13 +7,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import java.awt.*;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -141,55 +139,101 @@ public class ChatGui extends Application {
     }
 
     class ChatBotServer {
+        String toSend = "";
         ChatBotServer() throws IOException {
             Stage chatBotServer = new Stage();
             chatBotServer.setTitle("Chat Bot Server");
             VBox vB = new VBox();
 
-            TextField chatWindow = new TextField();
-            chatWindow.setEditable(false);
+            TextArea chatWindow = new TextArea();
+            chatWindow.setPrefColumnCount(4);
+            chatWindow.setPrefSize(300,500);
+            //chatWindow.setEditable(false);
 
             // Chat Entry HBox
             HBox chatArea = new HBox();
             TextField chatEntry = new TextField();
             Button sendChat = new Button("Send");
-            chatArea.getChildren().addAll(chatEntry,sendChat);
+            chatArea.getChildren().addAll(chatEntry, sendChat);
 
             // Total chat vBox
-            vB.getChildren().addAll(chatWindow,chatArea);
+            vB.getChildren().addAll(chatWindow, chatArea);
 
-            /** CHAT FUNCTIONALITY **/
-            ServerSocket mySocket = new ServerSocket(serverPort);
-
-            Scene s1 = new Scene(vB);
+            Scene s1 = new Scene(vB,300,500);
             chatBotServer.setScene(s1);
             chatBotServer.show();
 
-            // Wait for connection //QUESTION: I think this is where my stallng is coming from.
-            while(true) {
-                Socket connectionSocket = mySocket.accept();
+            /** CHAT FUNCTIONALITY **/
+            ServerSocket sv = new ServerSocket(serverPort);
 
-                BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-                BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(connectionSocket.getOutputStream()));
-
-                // TEST
-                handleInput(reader,chatWindow);
-
-                // Set button action to send message and display it on chat box
-                sendChat.setOnAction(e -> {
-                    try {
-                        sendMessage(writer,chatEntry.getText());
-                        chatEntry.setText("");
-                    } catch (IOException ex) {
-                        ex.printStackTrace();
+            Task taskRead = new Task<>() {
+                @Override
+                protected Void call() throws Exception {
+                    while (true) {
+                        Socket sck = sv.accept();
+                        BufferedReader reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
+                        String response = reader.readLine().trim();
+                        chatWindow.appendText("Client) " + response + "\r\n");
                     }
-                });
 
-                // Display chat messages
-                chatWindow.setText(chatWindow.getText() + "Server) " + reader.readLine().trim() + "\n");
-            }
+                }
+            };
 
+            Task taskWrite = new Task<>() {
+                @Override
+                protected Void call() throws Exception {
+                    //while (true) {
+                        Socket sck = sv.accept();
+                        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
+                        writer.write(toSend + "\r\n");
+                        writer.flush();
+                        chatWindow.appendText("Server) " + toSend + "\r\n");
+                    ///}
+                    return null;
+
+                }
+            };
+
+            //while (true) {
+
+            chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
+
+            Thread th = new Thread(taskRead);
+            //th.setDaemon(true);
+            th.start();
+
+            sendChat.setOnAction(e -> {
+                setMessage(chatEntry.getText());
+                Thread th2 = new Thread(taskWrite);
+                th2.start();
+                chatEntry.setText("");
+            });
+            //reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
+//                sck = sv.accept();
+//                writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
+//                while (true) {
+//
+////                    if (!reader.readLine().equals("")) {
+////                        response = reader.readLine().trim();
+////                        chatWindow.setText(chatWindow.getText() + "Client) " + response + "\r\n");
+////                    }
+//
+//                    // Set chat send button functionality
+//                    sendChat.setOnAction(e -> {
+//                        try {
+//                            writer.write(send + "\r\n");
+//                            writer.flush();
+//                        } catch (IOException ex) {
+//                            ex.printStackTrace();
+//                        }
+//                    });
+//                }
         }
+//    }
+        public void setMessage(String message) {
+            toSend = message;
+        }
+
 
         public void sendMessage(BufferedWriter writer, String message) throws IOException {
             writer.write(message);
@@ -214,16 +258,20 @@ public class ChatGui extends Application {
             };
             new Thread(task).start();
         }
+
     }
 
     class ChatBotClient {
+        String toSend = "";
         ChatBotClient() throws IOException {
             Stage chatBotClient = new Stage();
             chatBotClient.setTitle("Chat Bot Client");
             VBox vB = new VBox();
 
-            TextField chatWindow = new TextField();
-            chatWindow.setEditable(false);
+            TextArea chatWindow = new TextArea();
+            chatWindow.setPrefColumnCount(4);
+            chatWindow.setPrefSize(300,500);
+            //chatWindow.setEditable(false);
 
             // Chat Entry HBox
             HBox chatArea = new HBox();
@@ -234,37 +282,114 @@ public class ChatGui extends Application {
             // Total chat vBox
             vB.getChildren().addAll(chatWindow,chatArea);
 
-            Scene s1 = new Scene(vB);
+            Scene s1 = new Scene(vB,300,500);
             chatBotClient.setScene(s1);
             chatBotClient.show();
 
             /** CHAT FUNCTIONALITY **/
-            Socket socketClient = null;
-            try {
-                socketClient = new Socket(ipAddress,serverPort);
-                chatWindow.setText(chatWindow.getText() + "\nConnecting to client\n");
-            }
-            catch (Exception ex) {
-                chatWindow.setText(chatWindow.getText() + "\nclient can't be connected to\n");
-            }
+//            Socket socketClient = null;
+//            try {
+//                socketClient = new Socket(ipAddress,serverPort);
+//                chatWindow.setText(chatWindow.getText() + "\nConnecting to client\n");
+//            }
+//            catch (Exception ex) {
+//                chatWindow.setText(chatWindow.getText() + "\nclient can't be connected to\n");
+//            }
+//
+//            Socket connectionSocket = socketClient;
+//
+//            BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
+//            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(connectionSocket.getOutputStream()));
+//
+//            // Set button action to send message and display it on chat box
+//            sendChat.setOnAction(e -> {
+//                try {
+//                    sendMessage(writer,chatEntry.getText());
+//                    chatEntry.setText("");
+//                } catch (IOException ex) {
+//                    ex.printStackTrace();
+//                }
+//            });
+//
+//            //Display chat messages
+//            chatWindow.setText(chatWindow.getText() + "Client) " + reader.readLine().trim() + "\n");
 
-            Socket connectionSocket = socketClient;
 
-            BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(connectionSocket.getOutputStream()));
+//            BufferedWriter writer;
+//            BufferedReader reader;
+//            Socket sck;
+//            String response;
+//            String send = chatEntry.getText();
+//
+//            chatWindow.setText(chatWindow.getText() + "Waiting for Client Connection");
+//            sck = new Socket(ipAddress,serverPort);
+//            reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
+//            writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
+//
+//            while (true) {
+//                // Set chat send button functionality
+//                sendChat.setOnAction(e -> {
+//                    try {
+//                        writer.write(send + "\r\n");
+//                        writer.flush();
+//                    } catch (IOException ex) {
+//                        ex.printStackTrace();
+//                    }
+//                });
+//
+//                // Get server response
+//                if (!reader.readLine().equals("")) {
+//                    response = reader.readLine().trim();
+//                    chatWindow.setText(chatWindow.getText() + "Server) " + response + "\r\n");
+//                }
+//
+//            }
 
-            // Set button action to send message and display it on chat box
-            sendChat.setOnAction(e -> {
-                try {
-                    sendMessage(writer,chatEntry.getText());
-                    chatEntry.setText("");
-                } catch (IOException ex) {
-                    ex.printStackTrace();
+            Task taskRead = new Task<>() {
+                @Override
+                protected Void call() throws Exception {
+                    while (true) {
+                        Socket sck = new Socket(ipAddress, serverPort);
+                        BufferedReader reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
+                        String response = reader.readLine().trim();
+                        chatWindow.appendText("Server) " + response + "\r\n");
+                    }
+                    //return null;
+
                 }
+            };
+
+            Task taskWrite = new Task<>() {
+                @Override
+                protected Void call() throws Exception {
+                    //while (true) {
+                        Socket sck = new Socket(ipAddress, serverPort);
+                        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
+                        writer.write(toSend + "\r\n");
+                        writer.flush();
+                        chatWindow.appendText("Client) " + toSend + "\r\n");
+                    //}
+                    return null;
+
+                    }
+            };
+
+            chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
+
+            Thread th = new Thread(taskRead);
+            //th.setDaemon(true);
+            th.start();
+
+            sendChat.setOnAction(e -> {
+                setMessage(chatEntry.getText());
+                Thread th2 = new Thread(taskWrite);
+                th2.start();
+                chatEntry.setText("");
             });
 
-            //Display chat messages
-            chatWindow.setText(chatWindow.getText() + "Client) " + reader.readLine().trim() + "\n");
+        }
+        public void setMessage(String message) {
+            toSend = message;
         }
 
         public void sendMessage(BufferedWriter writer, String message) throws IOException {
@@ -272,6 +397,7 @@ public class ChatGui extends Application {
             writer.flush();
         }
     }
+
 
     @Override
     public void start(Stage stage) throws IOException {
