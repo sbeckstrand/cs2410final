@@ -16,6 +16,17 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ *  TABLE OF CONTENTS
+ *
+ *  class ChatGui
+ *  checkIfOK() method
+ *     class Menu (for setup)
+ *     class ChatBotServer (the chatbox that pops up when you choose the radio button for server)
+ *     Class ChatBotClient (the chatbox that pops up when you choose the radio button for client)
+ *  Start() method
+ */
+
 public class ChatGui extends Application {
     boolean isServer;
     boolean isClient;
@@ -25,6 +36,7 @@ public class ChatGui extends Application {
     private Object Menu;
     boolean startOk = false;
 
+    // Method to check if the GUI chat is okay to start and all info is entered.
     public boolean checkIfOk() {
         if (isServer && (serverPort >= 0)) {
             startOk = true;
@@ -40,9 +52,13 @@ public class ChatGui extends Application {
         }
     }
 
+    /**
+     * Menu class which brings up the options for someone to connect as a Server or a Client
+     */
     class Menu {
         //Stage menuStage;
         Menu() {
+            // Stage Setup
             Stage MenuStage = new Stage();
             MenuStage.setTitle("Menu");
             BorderPane borderPane = new BorderPane();
@@ -52,11 +68,14 @@ public class ChatGui extends Application {
 
             // Client check button area
             HBox clientBox = new HBox();
+            Text clientOption = new Text("Client - ");
             RadioButton amClient = new RadioButton();
             amClient.setOnAction(e -> {
                 isClient = true;
                 isServer = false;
             } );
+
+            // Text Fields for all the data being entered (FOR CLIENT)
             TextField enterIP = new TextField();
             TextField enterPort = new TextField();
             Text clientText = new Text("Enter Ip / server port to connect to");
@@ -66,26 +85,26 @@ public class ChatGui extends Application {
             Button sendPort = new Button();
             sendPort.setText("Send Port");
             sendPort.setOnAction(e -> serverPort = Integer.parseInt(enterPort.getText()));
-            clientBox.getChildren().addAll(amClient,clientText,enterIP,sendIP,enterPort,sendPort);
+            clientBox.getChildren().addAll(clientOption,amClient,clientText,enterIP,sendIP,enterPort,sendPort);
 
             // Server check button
             HBox serverBox = new HBox();
+            Text serverOption = new Text("Server - ");
             RadioButton amServer = new RadioButton();
             amServer.setOnAction(e -> {
                 isServer = true;
                 isClient = false;
             });
+            // Text Fields for all the data being entered (FOR SERVER)
             TextField enterServerPort = new TextField();
             Text serverText = new Text("Enter your desired server port");
             Button sendServerPort = new Button("Send Server Port");
             sendServerPort.setOnAction(e -> serverPort = Integer.parseInt(enterServerPort.getText()));
-            serverBox.getChildren().addAll(amServer,serverText,enterServerPort,sendServerPort);
+            serverBox.getChildren().addAll(serverOption,amServer,serverText,enterServerPort,sendServerPort);
 
-
+            // Make the radio buttons have the same group
             amClient.setToggleGroup(clientCheck);
             amServer.setToggleGroup(clientCheck);
-
-
 
             // Text field to allow the chatbox to start or not based on info added
             TextField errorReport = new TextField();
@@ -97,6 +116,7 @@ public class ChatGui extends Application {
                 if (startOk) {
                     MenuStage.close();
 
+                    // Check to see if server or client is running the program
                     if (isServer) {
                         try {
                             ChatBotServer cbServer = new ChatBotServer();
@@ -113,6 +133,7 @@ public class ChatGui extends Application {
                         }
                     }
                 }
+                // Must enter all info before clicking "start"
                 else {
                     Text notReady = new Text("Please enter the needed info before starting");
                     notReady.setFill(Color.RED);
@@ -138,6 +159,9 @@ public class ChatGui extends Application {
         }
     }
 
+    /**
+     * Class for the SERVER on the chatBot
+     */
     class ChatBotServer {
         String toSend = "";
         ChatBotServer() throws IOException {
@@ -166,6 +190,7 @@ public class ChatGui extends Application {
             /** CHAT FUNCTIONALITY **/
             ServerSocket sv = new ServerSocket(serverPort);
 
+            // Task which handles reading in chat messages
             Task taskRead = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
@@ -179,6 +204,7 @@ public class ChatGui extends Application {
                 }
             };
 
+            // Task which handles writing new chat messages
             Task taskWrite = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
@@ -194,76 +220,62 @@ public class ChatGui extends Application {
                 }
             };
 
-            //while (true) {
-
             chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
 
+            // Start the threads
             Thread th = new Thread(taskRead);
-            //th.setDaemon(true);
             th.start();
 
+            // Start the "Send chat" thread when button is pressed to send a message
             sendChat.setOnAction(e -> {
                 setMessage(chatEntry.getText());
                 Thread th2 = new Thread(taskWrite);
                 th2.start();
                 chatEntry.setText("");
             });
-            //reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
-//                sck = sv.accept();
-//                writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
-//                while (true) {
-//
-////                    if (!reader.readLine().equals("")) {
-////                        response = reader.readLine().trim();
-////                        chatWindow.setText(chatWindow.getText() + "Client) " + response + "\r\n");
-////                    }
-//
-//                    // Set chat send button functionality
-//                    sendChat.setOnAction(e -> {
-//                        try {
-//                            writer.write(send + "\r\n");
-//                            writer.flush();
-//                        } catch (IOException ex) {
-//                            ex.printStackTrace();
-//                        }
-//                    });
-//                }
+
         }
-//    }
+
+        // Set the message to send
         public void setMessage(String message) {
             toSend = message;
         }
 
+// UNUSED TEST METHODS
 
-        public void sendMessage(BufferedWriter writer, String message) throws IOException {
-            writer.write(message);
-            writer.flush();
-        }
-        public void handleInput(BufferedReader nis, TextField tf) {
-            final Task<Void> task = new Task<Void>() {
-                @Override
-                protected Void call() throws Exception {
-                    String output;
-                    while ((output = nis.readLine()) != null) {
-                        final String value = output;
-                        Platform.runLater(new Runnable() {
-                            @Override
-                            public void run() {
-                                tf.setText(tf.getText() + value + "\n");
-                            }
-                        });
-                    }
-                    return null;
-                }
-            };
-            new Thread(task).start();
-        }
+//        public void sendMessage(BufferedWriter writer, String message) throws IOException {
+//            writer.write(message);
+//            writer.flush();
+//        }
+//        public void handleInput(BufferedReader nis, TextField tf) {
+//            final Task<Void> task = new Task<Void>() {
+//                @Override
+//                protected Void call() throws Exception {
+//                    String output;
+//                    while ((output = nis.readLine()) != null) {
+//                        final String value = output;
+//                        Platform.runLater(new Runnable() {
+//                            @Override
+//                            public void run() {
+//                                tf.setText(tf.getText() + value + "\n");
+//                            }
+//                        });
+//                    }
+//                    return null;
+//                }
+//            };
+//            new Thread(task).start();
+//        }
 
     }
 
+    /**
+     * Class for the CLIENT side of the chatBot
+     */
     class ChatBotClient {
         String toSend = "";
         ChatBotClient() throws IOException {
+            // Setup for Stage
             Stage chatBotClient = new Stage();
             chatBotClient.setTitle("Chat Bot Client");
             VBox vB = new VBox();
@@ -287,64 +299,7 @@ public class ChatGui extends Application {
             chatBotClient.show();
 
             /** CHAT FUNCTIONALITY **/
-//            Socket socketClient = null;
-//            try {
-//                socketClient = new Socket(ipAddress,serverPort);
-//                chatWindow.setText(chatWindow.getText() + "\nConnecting to client\n");
-//            }
-//            catch (Exception ex) {
-//                chatWindow.setText(chatWindow.getText() + "\nclient can't be connected to\n");
-//            }
-//
-//            Socket connectionSocket = socketClient;
-//
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-//            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(connectionSocket.getOutputStream()));
-//
-//            // Set button action to send message and display it on chat box
-//            sendChat.setOnAction(e -> {
-//                try {
-//                    sendMessage(writer,chatEntry.getText());
-//                    chatEntry.setText("");
-//                } catch (IOException ex) {
-//                    ex.printStackTrace();
-//                }
-//            });
-//
-//            //Display chat messages
-//            chatWindow.setText(chatWindow.getText() + "Client) " + reader.readLine().trim() + "\n");
-
-
-//            BufferedWriter writer;
-//            BufferedReader reader;
-//            Socket sck;
-//            String response;
-//            String send = chatEntry.getText();
-//
-//            chatWindow.setText(chatWindow.getText() + "Waiting for Client Connection");
-//            sck = new Socket(ipAddress,serverPort);
-//            reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
-//            writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
-//
-//            while (true) {
-//                // Set chat send button functionality
-//                sendChat.setOnAction(e -> {
-//                    try {
-//                        writer.write(send + "\r\n");
-//                        writer.flush();
-//                    } catch (IOException ex) {
-//                        ex.printStackTrace();
-//                    }
-//                });
-//
-//                // Get server response
-//                if (!reader.readLine().equals("")) {
-//                    response = reader.readLine().trim();
-//                    chatWindow.setText(chatWindow.getText() + "Server) " + response + "\r\n");
-//                }
-//
-//            }
-
+            // Task to read in messages
             Task taskRead = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
@@ -359,6 +314,7 @@ public class ChatGui extends Application {
                 }
             };
 
+            // Task to send messages
             Task taskWrite = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
@@ -376,10 +332,11 @@ public class ChatGui extends Application {
 
             chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
 
+            // Start threads
             Thread th = new Thread(taskRead);
-            //th.setDaemon(true);
             th.start();
 
+            // Start of "send messages" thread when button clicked to send chats
             sendChat.setOnAction(e -> {
                 setMessage(chatEntry.getText());
                 Thread th2 = new Thread(taskWrite);
@@ -388,22 +345,25 @@ public class ChatGui extends Application {
             });
 
         }
+
+        // Sets the message to send
         public void setMessage(String message) {
             toSend = message;
         }
 
-        public void sendMessage(BufferedWriter writer, String message) throws IOException {
-            writer.write(message);
-            writer.flush();
-        }
+        // UNUSED METHODS
+//        public void sendMessage(BufferedWriter writer, String message) throws IOException {
+//            writer.write(message);
+//            writer.flush();
+//        }
     }
 
 
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
+        // Check if it's okay to start, and then create the Menu
         if (!startOk) {
             Menu menu = new Menu();
         }
-
     }
 }
