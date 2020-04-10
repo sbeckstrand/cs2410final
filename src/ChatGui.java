@@ -5,6 +5,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -26,6 +28,8 @@ import java.net.Socket;
  *     Class ChatBotClient (the chatbox that pops up when you choose the radio button for client)
  *  Start() method
  */
+
+//TODO: Do a check to make sure that the port being entered into the textbox is ONLY numbers.
 
 public class ChatGui extends Application {
     boolean isServer;
@@ -135,7 +139,7 @@ public class ChatGui extends Application {
                 }
                 // Must enter all info before clicking "start"
                 else {
-                    Text notReady = new Text("Please enter the needed info before starting");
+                    Text notReady = new Text("Please enter the correct needed info before starting");
                     notReady.setFill(Color.RED);
                     errorReport.setText(notReady.getText());
                 }
@@ -164,6 +168,7 @@ public class ChatGui extends Application {
      */
     class ChatBotServer {
         String toSend = "";
+//        Socket sck;
         ChatBotServer() throws IOException {
             Stage chatBotServer = new Stage();
             chatBotServer.setTitle("Chat Bot Server");
@@ -172,7 +177,8 @@ public class ChatGui extends Application {
             TextArea chatWindow = new TextArea();
             chatWindow.setPrefColumnCount(4);
             chatWindow.setPrefSize(300,500);
-            //chatWindow.setEditable(false);
+            chatWindow.setWrapText(true);
+            chatWindow.setEditable(false);
 
             // Chat Entry HBox
             HBox chatArea = new HBox();
@@ -189,13 +195,21 @@ public class ChatGui extends Application {
 
             /** CHAT FUNCTIONALITY **/
             ServerSocket sv = new ServerSocket(serverPort);
+            //Socket sck;
+//            Task openSocket = new Task() {
+//                @Override
+//                protected Void call() throws Exception {
+//                    sck = sv.accept();
+//                    return null;
+//                }
+//            };
 
             // Task which handles reading in chat messages
+            Socket sck = sv.accept();
             Task taskRead = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
                     while (true) {
-                        Socket sck = sv.accept();
                         BufferedReader reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
                         String response = reader.readLine().trim();
                         chatWindow.appendText("Client) " + response + "\r\n");
@@ -204,34 +218,50 @@ public class ChatGui extends Application {
                 }
             };
 
+
             // Task which handles writing new chat messages
             Task taskWrite = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
-                    //while (true) {
-                        Socket sck = sv.accept();
+//                    Socket sck = sv.accept();
+                    while (true) {
+
                         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
                         writer.write(toSend + "\r\n");
                         writer.flush();
-                        chatWindow.appendText("Server) " + toSend + "\r\n");
-                    ///}
-                    return null;
-
+                    }
                 }
             };
 
             chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
 
             // Start the threads
+//            Thread openSocketThread = new Thread(openSocket);
+//            openSocketThread.start();
+
             Thread th = new Thread(taskRead);
             th.start();
 
             // Start the "Send chat" thread when button is pressed to send a message
             sendChat.setOnAction(e -> {
-                setMessage(chatEntry.getText());
-                Thread th2 = new Thread(taskWrite);
-                th2.start();
-                chatEntry.setText("");
+                if (chatEntry.getText().compareTo("")!=0) {
+                    setMessage(chatEntry.getText());
+                    chatWindow.appendText("Server) " + toSend + "\r\n");
+                    Thread th2 = new Thread(taskWrite);
+                    th2.start();
+                    chatEntry.setText("");
+                }
+            });
+
+            // Also allow for sending messages by hitting enter key
+            chatEntry.setOnAction(e -> {
+                if (chatEntry.getText().compareTo("")!=0) {
+                    setMessage(chatEntry.getText());
+                    chatWindow.appendText("Server) " + toSend + "\r\n");
+                    Thread th2 = new Thread(taskWrite);
+                    th2.start();
+                    chatEntry.setText("");
+                }
             });
 
         }
@@ -274,6 +304,7 @@ public class ChatGui extends Application {
      */
     class ChatBotClient {
         String toSend = "";
+        //Socket sck;
         ChatBotClient() throws IOException {
             // Setup for Stage
             Stage chatBotClient = new Stage();
@@ -283,7 +314,8 @@ public class ChatGui extends Application {
             TextArea chatWindow = new TextArea();
             chatWindow.setPrefColumnCount(4);
             chatWindow.setPrefSize(300,500);
-            //chatWindow.setEditable(false);
+            chatWindow.setWrapText(true);
+            chatWindow.setEditable(false);
 
             // Chat Entry HBox
             HBox chatArea = new HBox();
@@ -299,12 +331,23 @@ public class ChatGui extends Application {
             chatBotClient.show();
 
             /** CHAT FUNCTIONALITY **/
+            Socket sck = new Socket(ipAddress, serverPort);
             // Task to read in messages
+            //Socket sck = new Socket(ipAddress,serverPort);
+
+//            Task openSocket = new Task() {
+//                @Override
+//                protected Void call() throws Exception {
+//                    sck = new Socket(ipAddress, serverPort);
+//                    return null;
+//                }
+//            };
+
             Task taskRead = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
                     while (true) {
-                        Socket sck = new Socket(ipAddress, serverPort);
+
                         BufferedReader reader = new BufferedReader(new InputStreamReader(sck.getInputStream()));
                         String response = reader.readLine().trim();
                         chatWindow.appendText("Server) " + response + "\r\n");
@@ -318,30 +361,41 @@ public class ChatGui extends Application {
             Task taskWrite = new Task<>() {
                 @Override
                 protected Void call() throws Exception {
-                    //while (true) {
-                        Socket sck = new Socket(ipAddress, serverPort);
+                    while (true) {
                         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
                         writer.write(toSend + "\r\n");
                         writer.flush();
-                        chatWindow.appendText("Client) " + toSend + "\r\n");
-                    //}
-                    return null;
-
                     }
+                }
             };
 
             chatWindow.appendText("Waiting for Client Connection" + System.getProperty("line.separator") + "\n");
 
             // Start threads
+
             Thread th = new Thread(taskRead);
             th.start();
 
             // Start of "send messages" thread when button clicked to send chats
             sendChat.setOnAction(e -> {
-                setMessage(chatEntry.getText());
-                Thread th2 = new Thread(taskWrite);
-                th2.start();
-                chatEntry.setText("");
+                if (chatEntry.getText().compareTo("")!=0) {
+                    setMessage(chatEntry.getText());
+                    chatWindow.appendText("Client) " + toSend + "\r\n");
+                    Thread th2 = new Thread(taskWrite);
+                    th2.start();
+                    chatEntry.setText("");
+                }
+            });
+
+            // Also allow for sending messages by hitting enter key
+            chatEntry.setOnAction(e -> {
+                if (chatEntry.getText().compareTo("")!=0) {
+                    setMessage(chatEntry.getText());
+                    chatWindow.appendText("Client) " + toSend + "\r\n");
+                    Thread th2 = new Thread(taskWrite);
+                    th2.start();
+                    chatEntry.setText("");
+                }
             });
 
         }
