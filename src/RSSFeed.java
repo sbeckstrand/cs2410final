@@ -51,12 +51,14 @@ public class RSSFeed extends Application {
 //        Thread thread = new Thread(t1);
 //        thread.start();
 
+        /** --------------------------------------- WORKING CODE ----------------------------------------**/
         Button getRSS = new Button("Get RSS");
         getRSS.setPrefWidth(300);
         Task t1 = new Task() {
             @Override
             protected Object call() throws Exception {
-                ReadRSS r1 = new ReadRSS("https://twitrss.me/twitter_user_to_rss/?user=cnn",textArea);
+                ReadRSS r1 = new ReadRSS("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom",textArea);
+                // Set the button's action in the thread to not stop the GUI each time the button is clicked
                 getRSS.setOnAction(e ->  {
                     r1.run();
                 });
@@ -66,6 +68,7 @@ public class RSSFeed extends Application {
 
         Thread thread = new Thread(t1);
         thread.start();
+        /** ----------------------------------------------------------------------------------------------**/
 
 
 //        Task t1 = new Task() {
@@ -112,13 +115,17 @@ public class RSSFeed extends Application {
             if ((line = reader.readLine()) == null) {
                 System.out.println("LINE 80 IS WHERE IT'S HAPPENING");
             }
+            String line2 = reader.readLine();
             //REPLACE SPECIAL CHARACTERS
             line = line.replace("&#x22;","");
             line = line.replace("&#x27;","");
             line = line.replace("&#x2019;","\'");
 
+            //TODO ---- ADD CODE TO READ THROUGH THE <updated> </updated> lines which contain the times of the quakes
+
             // Read through "Title" lines
             if (line.contains("title")) {
+                line = line.substring(line.indexOf("<title>"),line.indexOf("</title>"));
                 System.out.println("Title: " + line.replace("<title>","").replace("</title>","").strip());
                 t1.appendText("Title: " + line.replace("<title>","").replace("</title>","").strip());
                 t1.appendText("\n\n");
