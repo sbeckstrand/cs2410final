@@ -1,3 +1,5 @@
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.concurrent.Task;
 import javafx.scene.Scene;
@@ -10,10 +12,12 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.sql.Time;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -52,6 +56,7 @@ public class RSSFeed extends Application {
 //        thread.start();
 
         /** --------------------------------------- WORKING CODE ----------------------------------------**/
+
         Button getRSS = new Button("Get RSS");
         getRSS.setPrefWidth(300);
         Task t1 = new Task() {
@@ -59,9 +64,16 @@ public class RSSFeed extends Application {
             protected Object call() throws Exception {
                 ReadRSS r1 = new ReadRSS("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom",textArea);
                 // Set the button's action in the thread to not stop the GUI each time the button is clicked
-                getRSS.setOnAction(e ->  {
+                //TODO: MAKE THIS A TIMELINE ANIMATION TO DO IT AUTOMATICALLY
+//                getRSS.setOnAction(e ->  {
+//                    r1.run();
+//                });
+                Timeline timeline = new Timeline();
+                timeline.setCycleCount(Timeline.INDEFINITE);
+                timeline.getKeyFrames().add(new KeyFrame(Duration.seconds(60), e -> {
                     r1.run();
-                });
+                }));
+                timeline.play();
                 return null;
             }
         };
@@ -112,14 +124,20 @@ public class RSSFeed extends Application {
 
         // Read through
         while ((line = reader.readLine()) != null) {
-            if ((line = reader.readLine()) == null) {
-                System.out.println("LINE 80 IS WHERE IT'S HAPPENING");
-            }
-            String line2 = reader.readLine();
+//            if ((line = reader.readLine()) == null) {
+//                System.out.println("LINE 80 IS WHERE IT'S HAPPENING");
+//            }
+//            String line2 = reader.readLine();
             //REPLACE SPECIAL CHARACTERS
-            line = line.replace("&#x22;","");
-            line = line.replace("&#x27;","");
-            line = line.replace("&#x2019;","\'");
+            if (line.contains("&#x22;")) {
+                line = line.replace("&#x22;", "");
+            }
+            else if (line.contains("&#x27;")) {
+                line = line.replace("&#x27;", "");
+            }
+            else if (line.contains("&#x2019;")) {
+                line = line.replace("&#x2019;", "\'");
+            }
 
             //TODO ---- ADD CODE TO READ THROUGH THE <updated> </updated> lines which contain the times of the quakes
 
@@ -141,7 +159,7 @@ public class RSSFeed extends Application {
 //            }
 
             // Stop reading after 6 lines
-            if (lineCount > 3) {
+            if (lineCount > 10) {
                 break;
             }
         }
