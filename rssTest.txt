@@ -1,0 +1,1810 @@
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/bin/java --module-path "/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib" --add-modules javafx.controls,javafx.fxml --add-modules javafx.base,javafx.graphics --add-reads javafx.base=ALL-UNNAMED --add-reads javafx.graphics=ALL-UNNAMED "-Djava.library.path=/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib" "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52385:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/prestonbruner/guis-Bruner-Preston-Stratego/Stratego/cs2410final/out:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/src.zip:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx-swt.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.web.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.base.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.fxml.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.media.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.swing.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.controls.jar:/Users/prestonbruner/JavaFX SDK files/javafx-sdk-13.0.2/lib/javafx.graphics.jar" RSSFeed
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: At least 100,376 people have died from Covid-19, according to Johns Hopkins University&#x2019;s tally of deaths across the world.
+Title: Follow more live updates. https://cnn.it/3bboDDv&#xA0;
+Date: Fri, 10 Apr 2020 18:29:19 +0100
+Title: New Mexico is using cell phone data to track the movement of people within the state for information on whether people are abiding by stay-at-home orders, Gov. Michelle Lujan Grisham says https://cnn.it/2JTzMMS&#xA0;
+Date: Fri, 10 Apr 2020 18:14:47 +0100
+Title: Coronavirus is going to be horrible in the developing world ...
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: Many unemployed Americans are starting to see a bump in jobless benefits, but it will likely be a few more weeks before independent contractors and gig workers start receiving checks -- and some may end up not qualifying at all. https://cnn.it/2Xt6Pzs&#xA0;
+Date: Fri, 10 Apr 2020 20:00:10 +0100
+Title: If it werent for Frances Perkins, born 140 years ago today, millions of Americans might not be receiving unemployment benefits during the coronavirus pandemic. https://cnn.it/3ebD8cb&#xA0;
+Date: Fri, 10 Apr 2020 19:50:03 +0100
+Title: White House coronavirus response coordinator Dr. Deborah Birx said that for the first time since the coronavirus pandemic hit, she is seeing a leveling of the curve in the United States, but &#x201C;we have not reached the peak.&#x201D;  http://cnn.it/2xjJvJS&#xA0;pic.twitter.com/lIkdbUMh9t
+Date: Fri, 10 Apr 2020 19:45:35 +0100
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
+Title: Twitter Search / CNN
+Title: New federal government projections indicate that coronavirus infections and deaths may dramatically increase if social distancing and other measures are lifted after only 30 days, The New York Times reports https://cnn.it/39VIHbv&#xA0;
+Date: Fri, 10 Apr 2020 21:30:08 +0100
+Title: The Justice Department discovered last year the FBI made two material errors in foreign intelligence wiretap applications, and also omitted significant info from another surveillance warrant renewal, federal law enforcement disclosed publicly this week https://cnn.it/2JTUbkW&#xA0;
+Date: Fri, 10 Apr 2020 21:20:06 +0100
+Title: Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while youre stuck in yours. The Food Network has announced a new show tentatively titled Amy Schumer Learns to Cook, coming to the network in this time of self distancing. https://cnn.it/2xaWcqw&#xA0;
+Title: <description><![CDATA[<p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Amy Schumer and her husband, chef Chris Fischer, are inviting you into their home while you're stuck in yours. The Food Network has announced a new show tentatively titled "Amy Schumer Learns to Cook," coming to the network in this time of self distancing.  <a href="https://cnn.it/2xaWcqw">https://cnn.it/2xaWcqw&nbsp;</a></p>]]></description>
+
+
