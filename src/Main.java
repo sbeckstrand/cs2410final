@@ -1,15 +1,24 @@
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Pane root = new Pane();
+        Menu mainMenu = new Menu("Stratego", "themes/general/background.png");
+        mainMenu.addButton("Play", "game");
 
-        stage.setScene(new Scene(root));
+        Page rules = new Page("pages/rules.txt");
+        mainMenu.addButton("Rules", "page");
+
+        Page about = new Page("pages/about.txt");
+        mainMenu.addButton("About", "page");
+
+        mainMenu.addButton("Quit", "quit");
+
+
+        stage.setScene(new Scene(mainMenu.getMenu()));
         stage.setTitle("Stratego");
         stage.show();
     }
