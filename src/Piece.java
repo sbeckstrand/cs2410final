@@ -1,6 +1,8 @@
 public class Piece {
     private int moveDistance;
     private int value;
+    private String color;
+
         // Value 99 is bomb
         // Value 100 is flag
 
@@ -16,9 +18,10 @@ public class Piece {
      * Overridden Constructor for Piece class where the piece's value can be set by the user
      * @param playerValue the value the piece will hold
      */
-    public Piece(int playerValue) {
+    public Piece(int playerValue, String color) {
         this.value = playerValue;
         this.setMoveDistance(playerValue);
+        this.color = color;
     }
 
     public int getValue() {
@@ -28,6 +31,8 @@ public class Piece {
     public int getMoveDistance() {
         return this.moveDistance;
     }
+
+    public String getColor() { return this.color; }
 
     /** --------------------------------------- PRIVATE METHODS -----------------------------------------------**/
     /**
