@@ -20,10 +20,14 @@ public class Menu  {
     public <E> Menu(String title, String background, E previous) throws FileNotFoundException {
         root = new VBox();
         bgImage = background;
-        root.setPrefSize(900, 500);
-        Image backgroundImage = new Image(background, 1600, 1600, false, false);
+        root.setPrefSize(800, 500);
+        Image backgroundImage = new Image(background, 800, 800, false, false);
         Background bg = new Background(new BackgroundImage(backgroundImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT));
-        root.setBackground(bg);
+
+        if (previous == null) {
+            root.setBackground(bg);
+        }
+
 
         Text menuTitle = new Text(title + "\n\n");
         menuWrapper = new TextFlow(menuTitle);
@@ -74,9 +78,7 @@ public class Menu  {
             if (type.equals("game")) {
                 try {
                     Menu clientMenu  = new Menu("Host/Client Settings", bgImage, this);
-                    System.out.println(this.previous);
                     if (previous != null) {
-                        System.out.println("test");
                         root.getChildren().clear();
                     } else {
                         root.getChildren().remove(menuWrapper);

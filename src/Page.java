@@ -61,10 +61,10 @@ public class Page<E> {
 
             page.getChildren().add(textContent);
         }
-        page.setMaxWidth(900);
-        page.setMaxWidth(880);
+        page.setMaxWidth(800);
+        page.setMaxWidth(780);
         pageScroll.setMinHeight(500);
-        pageScroll.setMaxWidth(900);
+        pageScroll.setMaxWidth(800);
         pageScroll.setContent(page);
         pageScroll.setStyle(
                 "-fx-background: rgb(137,202,127);\n" +
