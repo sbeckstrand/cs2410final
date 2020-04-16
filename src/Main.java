@@ -6,16 +6,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Menu mainMenu = new Menu("Stratego", "themes/general/background.png");
-        mainMenu.addButton("Play", "game");
-
-        Page rules = new Page("pages/rules.txt");
-        mainMenu.addButton("Rules", "page");
-
-        Page about = new Page("pages/about.txt");
-        mainMenu.addButton("About", "page");
-
-        mainMenu.addButton("Quit", "quit");
+        Menu mainMenu = new Menu("Stratego", "themes/general/background.png", null);
+        mainMenu.addButton("Play", "game", "test");
+        mainMenu.addButton("Rules", "page", "assets/pages/rules.txt");
+        mainMenu.addButton("About", "page", "assets/pages/about.txt");
+        mainMenu.addButton("Quit", "quit", stage);
 
 
         stage.setScene(new Scene(mainMenu.getMenu()));

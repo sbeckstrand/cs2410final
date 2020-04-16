@@ -1,32 +1,32 @@
-Header-Set Up
-Paragraph-To start a game you just need to select 'Play' from the main menu. You will first be prompted to select if you wish to Host a Join a game.
-Paragraph-Hosting a game will immediately populate a board with pieces assigned in a random order. An IP address and port will also be listed at the top that you will provide to another player so that they can select to Join a game.
-Paragraph-Joining a game will prompt you to provide an IP address and port. Once you have obtained these from a player hosting a game, click 'Connect' to establish a connection with the hosting player.
-Header-The Playing Pieces
-Paragraph-Any piece with a number assigned to it can be moved. The numbers indicate the strength of the piece with 10 being the highest, 1 being the lowest. The Bomb and Flag pieces cannot be moved.
-Header-Object of the Game
-Paragraph-Defeat your opponent's army by attacking and capture their flag
-Header-On Your Turn
-Paragraph-Players will alternate turns with the Red Player taking the first turn.
-Paragraph-During your turn, you can do one of two actions. Attack or Move, but you cannot Move and Attack in the same turn (except for the 'Scout (2)' piece. This is explained under 'Specialist Pieces').
-Header-Rules For Moving
-Paragraph-Only one piece can be moved per turn, and it can only move one square per turn (except for the 'Scout (2)' piece. This is explained under 'Specialist Pieces'). Pieces can move backward, or sidways, but never diagonally.
-Paragraph-Two pieces cannot occupy the same square at the same time.
-Paragraph-Pieces cannot jump over or move through an occupied square.
-Paragraph-The Lakes areas in the center of the board contain no square. Piece must move around these areas, never through or over them.
-Paragraph-Pieces cannot be moved back and forth between the same two squares in three consecutive turns. The play who started this must stop first.
-Paragraph-Flags and Bombs cannot move.
-Header-Rules for Attacking
-Paragraph-If one of your opponent's pieces occupies a square in front, beside or behind yours, you can attack it. You cannot attack diagonally. Attacking is always optional.
-Paragraph-When attacking, the opponent must display their piece's rank.
-Paragraph-If your piece's rank is HIGHER than your opponent's, you win the attack and capture their piece. Your winning piece now occupies that square.
-Paragraph-If your piece's rank is LOWER than your opponent's, you lose the attack and your piece is captured. Your opponent's piece stays in it's square.
-Paragraph-If your piece's rank MATCHES your opponent's, both pieces are captured.
-Paragraph-Captured pieces are immediately removed from the board.
-Paragraph-If attacking a bomb, the attacking piece loses and is captured and the bomb remains in it's square. Only a Miner (3) can attack and remove a bomb. This is explained under 'Specialist Pieces'.
-Header-Winning The Game
-Paragraph-The game ends when a player attacks and captures the opponent's flag or when a player cannot move a piece or attack.
-Header-Specialist Pieces
-Paragraph-The Spy (1) has one mission: Beat the Marshal (10)! If a spy attacks a Marshan (10), the Marshal loses and is removed from the game. However, if the Marshal attacks the Spy first, the Spy loses and is removed. If a Spy is attacked by any piece, it is removed.
-Paragraph-The Scout (2) can move across any number of open squares forward, backward or sideways but only in a straight line. They may not move diagonally. Scouts can move and attack in the same turn, but again, only in a straight line. Note, moving more than 1 space will reveal the scout's identitity.
-Paragraph-The Miner (3) When a miner attacks a bomb, the bomb is removed from the board. The Miner then moves into the bom's square.
+Header----Set Up
+Paragraph----To start a game you just need to select 'Play' from the main menu. You will first be prompted to select if you wish to Host a Join a game.
+Paragraph----Hosting a game will immediately populate a board with pieces assigned in a random order. An IP address and port will also be listed at the top that you will provide to another player so that they can select to Join a game.
+Paragraph----Joining a game will prompt you to provide an IP address and port. Once you have obtained these from a player hosting a game, click 'Connect' to establish a connection with the hosting player.
+Header----The Playing Pieces
+Paragraph----Any piece with a number assigned to it can be moved. The numbers indicate the strength of the piece with 10 being the highest, 1 being the lowest. The Bomb and Flag pieces cannot be moved.
+Header----Object of the Game
+Paragraph----Defeat your opponent's army by attacking and capture their flag
+Header----On Your Turn
+Paragraph----Players will alternate turns with the Red Player taking the first turn.
+Paragraph----During your turn, you can do one of two actions. Attack or Move, but you cannot Move and Attack in the same turn (except for the 'Scout (2)' piece. This is explained under 'Specialist Pieces').
+Header----Rules For Moving
+Paragraph----Only one piece can be moved per turn, and it can only move one square per turn (except for the 'Scout (2)' piece. This is explained under 'Specialist Pieces'). Pieces can move backward, or sidways, but never diagonally.
+Paragraph----Two pieces cannot occupy the same square at the same time.
+Paragraph----Pieces cannot jump over or move through an occupied square.
+Paragraph----The Lakes areas in the center of the board contain no square. Piece must move around these areas, never through or over them.
+Paragraph----Pieces cannot be moved back and forth between the same two squares in three consecutive turns. The play who started this must stop first.
+Paragraph----Flags and Bombs cannot move.
+Header----Rules for Attacking
+Paragraph----If one of your opponent's pieces occupies a square in front, beside or behind yours, you can attack it. You cannot attack diagonally. Attacking is always optional.
+Paragraph----When attacking, the opponent must display their piece's rank.
+Paragraph----If your piece's rank is HIGHER than your opponent's, you win the attack and capture their piece. Your winning piece now occupies that square.
+Paragraph----If your piece's rank is LOWER than your opponent's, you lose the attack and your piece is captured. Your opponent's piece stays in it's square.
+Paragraph----If your piece's rank MATCHES your opponent's, both pieces are captured.
+Paragraph----Captured pieces are immediately removed from the board.
+Paragraph----If attacking a bomb, the attacking piece loses and is captured and the bomb remains in it's square. Only a Miner (3) can attack and remove a bomb. This is explained under 'Specialist Pieces'.
+Header----Winning The Game
+Paragraph----The game ends when a player attacks and captures the opponent's flag or when a player cannot move a piece or attack.
+Header----Specialist Pieces
+Paragraph----The Spy (1) has one mission: Beat the Marshal (10)! If a spy attacks a Marshan (10), the Marshal loses and is removed from the game. However, if the Marshal attacks the Spy first, the Spy loses and is removed. If a Spy is attacked by any piece, it is removed.
+Paragraph----The Scout (2) can move across any number of open squares forward, backward or sideways but only in a straight line. They may not move diagonally. Scouts can move and attack in the same turn, but again, only in a straight line. Note, moving more than 1 space will reveal the scout's identitity.
+Paragraph----The Miner (3) When a miner attacks a bomb, the bomb is removed from the board. The Miner then moves into the bomb's square.
