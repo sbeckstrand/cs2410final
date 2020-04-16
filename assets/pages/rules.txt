@@ -1,5 +1,5 @@
 Header----Set Up
-Paragraph----To start a game you just need to select 'Play' from the main menu. You will first be prompted to select if you wish to Host a Join a game.
+Paragraph----To start a game you just need to select 'Play' from the main menu. You will first be prompted to select if you wish to Host or Join a game.
 Paragraph----Hosting a game will immediately populate a board with pieces assigned in a random order. An IP address and port will also be listed at the top that you will provide to another player so that they can select to Join a game.
 Paragraph----Joining a game will prompt you to provide an IP address and port. Once you have obtained these from a player hosting a game, click 'Connect' to establish a connection with the hosting player.
 Header----The Playing Pieces

@@ -16,15 +16,16 @@ public class Menu  {
     private String bgImage;
     private TextFlow previous;
 
+    // Construct Menu Object. In the constructor. We create a VBox as our pane, set a background, set the size of our pane, create a tile, and see if our menu stores a reference to a previous menu. If we do store a reference, add a back button that links to the previous menu.
     public <E> Menu(String title, String background, E previous) throws FileNotFoundException {
         root = new VBox();
         bgImage = background;
-        root.setPrefSize(1600, 1000);
+        root.setPrefSize(900, 500);
         Image backgroundImage = new Image(background, 1600, 1600, false, false);
         Background bg = new Background(new BackgroundImage(backgroundImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT));
         root.setBackground(bg);
 
-        Text menuTitle = new Text(title + "\n");
+        Text menuTitle = new Text(title + "\n\n");
         menuWrapper = new TextFlow(menuTitle);
 
 
@@ -54,14 +55,17 @@ public class Menu  {
         root.getChildren().add(menuWrapper);
     }
 
+    // Method to get return our Pane that stores the menu.
     public Pane getMenu() {
         return this.root;
     }
 
+    //Method to get the Textflow that stores our title and buttons.
     public TextFlow getTextFlow() {
         return this.menuWrapper;
     }
 
+    // Method to add a button. This checks the button type and will generate sub pages/menues based on type.
     public <E> void addButton(String description, String type, E object) {
         Button button = new Button(description);
         menuWrapper.getChildren().add(button.getButton());
@@ -103,6 +107,7 @@ public class Menu  {
         });
     }
 
+    // Method to update our refernece to a previous menu/page.
     public void setPrevious(TextFlow previous) {
         this.previous = previous;
     }
