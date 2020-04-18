@@ -32,9 +32,9 @@ public class MainLayout extends Application {
         // Left
         VBox leftVbox = new VBox();
         GridPane topPane = new GridPane();
-        topPane.setPrefSize(3,6);
-        for (int a=0; a<6;a++) {
-            for (int b=0;b<3;b++) {
+        topPane.setPrefSize(6,5);
+        for (int a=0; a<5;a++) {
+            for (int b=0;b<6;b++) {
                 Rectangle r1 = new Rectangle(25,25);
                 r1.setFill(Color.BLUE);
                 r1.setStroke(Color.BLACK);
@@ -43,13 +43,13 @@ public class MainLayout extends Application {
             }
         }
 
-        Rectangle bg = new Rectangle(75,198);
+        Rectangle bg = new Rectangle(75,250);
         bg.setFill(Color.WHITE);
 
         GridPane bottomPane = new GridPane();
-        bottomPane.setPrefSize(3,6);
-        for (int c=0; c<6;c++) {
-            for (int d=0;d<3;d++) {
+        bottomPane.setPrefSize(6,5);
+        for (int c=0; c<5;c++) {
+            for (int d=0;d<6;d++) {
                 Rectangle r1 = new Rectangle(25,25);
                 r1.setFill(Color.RED);
                 r1.setStroke(Color.BLACK);
@@ -72,6 +72,7 @@ public class MainLayout extends Application {
                 mainBoard.add(r1,j,i);
             }
         }
+
         GridPane piecesBoard = new GridPane();
         mainBoard.setPrefSize(10,10);
         for (int i=0; i<10; i++) {
@@ -79,7 +80,7 @@ public class MainLayout extends Application {
                 Rectangle r1 = new Rectangle(50,50);
                 r1.setFill(Color.TRANSPARENT);
                 r1.setStroke(Color.BLACK);
-                r1.setStrokeWidth(1);
+//                r1.setStrokeWidth(1);
                 mainBoard.add(r1,j,i);
             }
         }
