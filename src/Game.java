@@ -12,106 +12,112 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Game {
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Game(String team) {
+import java.util.Random;
+
+
+public class Game {
+    boolean blueTurn;
+    GameUI UI;
+    Piece[] pieces;
+
+    public Game(String team) throws FileNotFoundException {
         boolean blueTurn = true;
 
-        BorderPane root = new BorderPane();
+        UI = new GameUI();
+        Board gameBoard = UI.getBoard();
+        pieces = buildPieces();
 
-        // Left
-        VBox leftVbox = new VBox();
-        GridPane topPane = new GridPane();
-        topPane.setPrefSize(6,5);
-        for (int a=0; a<5;a++) {
-            for (int b=0;b<6;b++) {
-                Rectangle r1 = new Rectangle(25,25);
-                r1.setFill(Color.BLUE);
-                r1.setStroke(Color.BLACK);
-                r1.setStrokeWidth(1);
-                topPane.add(r1,b,a);
-            }
-        }
+        randomizePlacement();
 
-        Rectangle bg = new Rectangle(75,250);
-        bg.setFill(Color.WHITE);
 
-        GridPane bottomPane = new GridPane();
-        bottomPane.setPrefSize(6,5);
-        for (int c=0; c<5;c++) {
-            for (int d=0;d<6;d++) {
-                Rectangle r1 = new Rectangle(25,25);
-                r1.setFill(Color.RED);
-                r1.setStroke(Color.BLACK);
-                r1.setStrokeWidth(1);
-                bottomPane.add(r1,d,c);
-            }
-        }
-
-        leftVbox.getChildren().addAll(topPane,bg,bottomPane);
-
-        // Center
-        GridPane mainBoard = new GridPane();
-        mainBoard.setPrefSize(10,10);
-        for (int i=0; i<10; i++) {
-            for (int j=0;j<10;j++) {
-                Rectangle r1 = new Rectangle(50,50);
-                r1.setFill(Color.GRAY);
-                r1.setStroke(Color.BLACK);
-                r1.setStrokeWidth(1);
-                mainBoard.add(r1,j,i);
-            }
-        }
-
-        GridPane piecesBoard = new GridPane();
-        mainBoard.setPrefSize(10,10);
-        for (int i=0; i<10; i++) {
-            for (int j=0;j<10;j++) {
-                Rectangle r1 = new Rectangle(50,50);
-                r1.setFill(Color.TRANSPARENT);
-                r1.setStroke(Color.BLACK);
-//                r1.setStrokeWidth(1);
-                mainBoard.add(r1,j,i);
-            }
-        }
-
-        StackPane grids = new StackPane();
-        grids.getChildren().addAll(mainBoard,piecesBoard);
-
-        // Right
-
-        VBox rightVbox = new VBox();
-
-        StackPane title = new StackPane();
-        Rectangle titleBox = new Rectangle(200,80);
-        titleBox.setFill(Color.TAN);
-        Text titleText = new Text("STRATEGO");
-        titleText.setFill(Color.WHITE);
-        titleText.setFont(Font.font(null, FontWeight.BLACK,32));
-        DropShadow ds = new DropShadow();
-        titleText.setEffect(ds);
-        title.getChildren().addAll(titleBox,titleText);
-
-        TextArea textArea = new TextArea();
-        textArea.setPrefSize(200,200);
-        textArea.setText("Game updates will go here");
-
-        Button quitButton = new Button("Quit");
-        quitButton.setPrefWidth(200);
-        quitButton.setPrefHeight(20);
-        quitButton.setOnAction(e -> {
-            Stage stage = (Stage) quitButton.getScene().getWindow();
-            stage.close();
-        });
-
-        TextArea rssText = new TextArea();
-        rssText.setPrefSize(200,200);
-        rssText.setText("RSS will go here");
-
-        rightVbox.getChildren().addAll(title,textArea,quitButton,rssText);
-
-        root.setLeft(leftVbox);
-        root.setCenter(grids);
-        root.setRight(rightVbox);
     }
+
+    public GameUI getUI() {
+        return this.UI;
+    }
+
+    private void randomizePlacement() throws FileNotFoundException {
+        int currentBlue = 0;
+        int currentRed = 60;
+
+        ArrayList<String> unplacedPieces = new ArrayList<>();
+
+        for (int i = 0; i < 80; i++) {
+            unplacedPieces.add(String.valueOf(i));
+        }
+
+        while (unplacedPieces.size() > 0) {
+            Random rand = new Random();
+            int randomNumber = Integer.parseInt(unplacedPieces.get(rand.nextInt(unplacedPieces.size())));
+
+            if (pieces[randomNumber].getColor() == "b") {
+                UI.getBoard().setPiece( currentBlue % 10, currentBlue / 10, pieces[randomNumber]);
+                currentBlue +=1;
+            } else {
+                UI.getBoard().setPiece( currentRed % 10, (currentRed / 10), pieces[randomNumber]);
+                currentRed +=1;
+            }
+            unplacedPieces.remove(String.valueOf(randomNumber));
+
+        }
+
+    }
+
+
+    private Piece[] buildPieces() {
+        Piece[] pieces = new Piece[80];
+        String color = "";
+        int currentIndex = 0;
+
+        for (int i = 0; i < 2; i++) {
+            if (i == 0) {
+                color = "b";
+            } else {
+                color = "r";
+            }
+
+            for (int j = 0; j < 12; j++) {
+                int currentValue = j + 1;
+                int currentCount = 1;
+
+                if (currentValue == 2) {
+                    currentCount = 8;
+                }
+                else if (currentValue == 3) {
+                    currentCount = 5;
+                }
+                else if (currentValue == 4 || currentValue == 5 || currentValue == 6) {
+                    currentCount = 4;
+                }
+                else if (currentValue == 7) {
+                    currentCount = 3;
+                }
+                else if (currentValue == 8) {
+                    currentCount = 2;
+                }
+                else if (currentValue == 11) {
+                    currentValue = 99;
+                    currentCount = 6;
+                }
+                else if (currentValue == 12) {
+                    currentValue = 100;
+                }
+
+                for (int k = 0; k < currentCount; k++) {
+                    pieces[currentIndex] = new Piece(currentValue, color);
+                    currentIndex++;
+                }
+
+            }
+
+        }
+
+        return pieces;
+    }
+
+
 }
