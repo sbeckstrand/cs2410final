@@ -48,7 +48,7 @@ public class Menu  {
             Button backButton = new Button("Back");
             menuWrapper.getChildren().add(backButton.getButton());
             addButton("Host Game", "host", null);
-            addButton("Join Game", "host", null);
+            addButton("Join Game", "client", null);
             Menu previousMenu = (Menu) previous;
             previousMenu.setPrevious((TextFlow) previousMenu.getTextFlow());
             backButton.getButton().setOnMouseClicked( e -> {
@@ -105,6 +105,18 @@ public class Menu  {
                     ex.printStackTrace();
                 }
 
+            }
+
+            if (type.equals("host")) {
+                Game game = null;
+                try {
+                    game = new Game("blue");
+                } catch (FileNotFoundException ex) {
+                    ex.printStackTrace();
+                }
+                Stage stage = (Stage) root.getScene().getWindow();
+                Scene scene = new Scene(game.UI.getLayout());
+                stage.setScene(scene);
             }
         });
     }
