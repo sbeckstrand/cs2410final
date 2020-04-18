@@ -170,7 +170,7 @@ public class RSSFeed extends Application {
 
     }
 
-    public class ReadRSS extends TimerTask {
+    public static class ReadRSS extends TimerTask {
         String webURL;
         TextArea textArea;
 
