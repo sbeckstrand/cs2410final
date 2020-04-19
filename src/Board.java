@@ -1,6 +1,7 @@
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
@@ -8,25 +9,25 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class Board {
+    ImageView bgImageView;
     GridPane mainBoard;
     GridPane piecesBoard;
+    GridPane clickRectangles;
     Piece[][] pieceArray;
+    Rectangle[][] rectangleArray;
 
-    public Board() {
+    public Board() throws FileNotFoundException {
+
+        // Image behind the grids
+        FileInputStream bgImageFile = new FileInputStream("assets/themes/general/background.png");
+        Image bgImage = new Image(bgImageFile);
+        bgImageView = new ImageView(bgImage);
+        bgImageView.setFitWidth(510);
+        bgImageView.setFitHeight(510);
+
+
         // Main GridPane used to display board. Visual part of the board.
         mainBoard = new GridPane();
-        mainBoard.setPrefSize(10,10);
-        for (int i=0; i<10; i++) {
-            for (int j=0;j<10;j++) {
-                Rectangle r1 = new Rectangle(50,50);
-                r1.setFill(Color.GRAY);
-                r1.setStroke(Color.BLACK);
-                r1.setStrokeWidth(1);
-                mainBoard.add(r1,j,i);
-            }
-        }
-
-        piecesBoard = new GridPane();
         mainBoard.setPrefSize(10,10);
         for (int i=0; i<10; i++) {
             for (int j=0;j<10;j++) {
@@ -38,6 +39,49 @@ public class Board {
             }
         }
 
+        piecesBoard = new GridPane();
+        piecesBoard.setPrefSize(10,10);
+        for (int i=0; i<10; i++) {
+            for (int j=0;j<10;j++) {
+                Rectangle r1 = new Rectangle(50,50);
+                r1.setFill(Color.TRANSPARENT);
+                r1.setStroke(Color.BLACK);
+                r1.setStrokeWidth(1);
+                piecesBoard.add(r1,j,i);
+            }
+        }
+
+        clickRectangles = new GridPane();
+        rectangleArray = new Rectangle[10][10];
+        clickRectangles.setPrefSize(10,10);
+        for (int i=0; i<10; i++) {
+            for (int j=0;j<10;j++) {
+                int y = j;
+                int x = i;
+                Rectangle clickRectangle = new Rectangle(50,50);
+                clickRectangle.setFill(Color.BLUE);
+                clickRectangle.setStroke(Color.BLACK);
+                clickRectangle.setStrokeWidth(1);
+                clickRectangle.opacityProperty().set(0);
+
+//                clickRectangle.setOnMouseEntered(e -> {
+//                    clickRectangle.opacityProperty().setValue(.5);
+//                });
+//                clickRectangle.setOnMouseExited(e -> {
+//                    clickRectangle.opacityProperty().setValue(0);
+//                });
+                clickRectangle.setOnMouseClicked(e -> {
+                    clearRectangleTransparency();
+                    showMoveRectangles(y,x);
+                });
+
+                clickRectangles.add(clickRectangle,j,i);
+                rectangleArray[j][i] = clickRectangle;
+            }
+        }
+
+
+
         // Logical array to track pieces
         pieceArray = new Piece[10][10];
         // Initially set all to null
@@ -47,7 +91,10 @@ public class Board {
             }
         }
 
+    }
 
+    public ImageView getBgImageView() {
+        return bgImageView;
     }
 
     public GridPane getMainBoard() {
@@ -56,6 +103,10 @@ public class Board {
 
     public GridPane getPiecesBoard() {
         return this.piecesBoard;
+    }
+
+    public GridPane getClickRectangles() {
+        return clickRectangles;
     }
 
     public Piece[][] getPieceArray() {
@@ -71,6 +122,146 @@ public class Board {
     public void setPiece(int currentX, int currentY, int newX, int newY, Piece piece) throws FileNotFoundException {
 
         updateBoard();
+    }
+
+    public void showMoveRectangles(int xPos, int yPos) {
+        if (pieceArray[xPos][yPos] == null) {
+            return;
+        }
+
+//        //Debug print piece array
+//        for (int i=0; i<10;i++) {
+//            for (int j=0; j<10; j++) {
+//                System.out.print(pieceArray[j][i]);
+//            }
+//            System.out.println();
+//        }
+
+        int moves = pieceArray[xPos][yPos].getMoveDistance();
+
+        // Check up
+        int upX = xPos;
+        int upY = yPos;
+        int upMoves = moves;
+
+        while (upY > 0 && upMoves > 0) {
+            upY--;
+            if (isInLake(upX,upY)) { break; }
+
+            if ((pieceArray[upX][upY] != null) &&
+            (pieceArray[upX][upY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) != 0)) {
+                rectangleArray[upX][upY].setFill(Color.GREEN);
+                rectangleArray[upX][upY].opacityProperty().set(0.5);
+                break;
+            }
+            else if ((pieceArray[upX][upY] != null) &&
+                    (pieceArray[upX][upY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) == 0)) {
+                break;
+            }
+            rectangleArray[upX][upY].setFill(Color.GREEN);
+            rectangleArray[upX][upY].opacityProperty().set(0.5);
+            upMoves--;
+        }
+
+        // Check down
+        int downX = xPos;
+        int downY = yPos;
+        int downMoves = moves;
+
+        while (downY < 9 && downMoves > 0) {
+            downY++;
+            if (isInLake(downX,downY)) { break; }
+
+            if ((pieceArray[downX][downY] != null) &&
+                    (pieceArray[downX][downY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) != 0)) {
+                rectangleArray[downX][downY].setFill(Color.GREEN);
+                rectangleArray[downX][downY].opacityProperty().set(0.5);
+                break;
+            }
+            else if ((pieceArray[downX][downY] != null) &&
+                    (pieceArray[downX][downY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) == 0)) {
+                break;
+            }
+            rectangleArray[downX][downY].setFill(Color.GREEN);
+            rectangleArray[downX][downY].opacityProperty().set(0.5);
+            downMoves--;
+        }
+
+        // Check left
+        int leftX = xPos;
+        int leftY = yPos;
+        int leftMoves = moves;
+
+        while (leftY > 0 && leftMoves > 0) {
+            leftY--;
+            if (isInLake(leftX,leftY)) { break; }
+
+            if ((pieceArray[leftX][leftY] != null) &&
+                    (pieceArray[leftX][leftY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) != 0)) {
+                rectangleArray[leftX][leftY].setFill(Color.GREEN);
+                rectangleArray[leftX][leftY].opacityProperty().set(0.5);
+                break;
+            }
+            else if ((pieceArray[leftX][leftY] != null) &&
+                    (pieceArray[leftX][leftY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) == 0)) {
+                break;
+            }
+            rectangleArray[leftX][leftY].setFill(Color.GREEN);
+            rectangleArray[leftX][leftY].opacityProperty().set(0.5);
+            leftMoves--;
+        }
+
+        // Check right
+        int rightX = xPos;
+        int rightY = yPos;
+        int rightMoves = moves;
+
+        while (rightY < 9 && rightMoves > 0) {
+            rightY++;
+            if (isInLake(rightX,rightY)) { break; }
+
+            if ((pieceArray[rightX][rightY] != null) &&
+                    (pieceArray[rightX][rightY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) != 0)) {
+                rectangleArray[rightX][rightY].setFill(Color.GREEN);
+                rectangleArray[rightX][rightY].opacityProperty().set(0.5);
+                break;
+            }
+            else if ((pieceArray[rightX][rightY] != null) &&
+                    (pieceArray[rightX][rightY].getColor().compareTo(pieceArray[xPos][yPos].getColor()) == 0)) {
+                break;
+            }
+            rectangleArray[rightX][rightY].setFill(Color.GREEN);
+            rectangleArray[rightX][rightY].opacityProperty().set(0.5);
+            rightMoves--;
+        }
+
+    }
+
+    public boolean isInLake(int xPos, int yPos) {
+        if ((xPos == 2 && yPos == 4)
+            || (xPos == 2 && yPos == 5)
+                || (xPos == 3 && yPos == 4)
+                || (xPos == 3 && yPos == 5)) {
+            return true;
+        }
+        else if ((xPos == 6 && yPos == 4)
+                || (xPos == 6 && yPos == 5)
+                || (xPos == 7 && yPos == 4)
+                || (xPos == 7 && yPos == 5)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    public void clearRectangleTransparency() {
+        for (int x = 0; x < 10; x++) {
+            for (int y=0; y < 10; y++) {
+                rectangleArray[y][x].opacityProperty().set(0);
+            }
+        }
     }
 
     private void updateBoard() throws FileNotFoundException {
