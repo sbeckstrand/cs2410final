@@ -18,7 +18,6 @@ public class Main extends Application {
         mainMenu.addButton("About", "page", "assets/pages/about.txt");
         mainMenu.addButton("Quit", "quit", stage);
 
-
         stage.setScene(new Scene(mainMenu.getMenu()));
         stage.setTitle("Stratego");
         stage.show();
