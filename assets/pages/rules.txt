@@ -27,6 +27,6 @@ Paragraph----If attacking a bomb, the attacking piece loses and is captured and 
 Header----Winning The Game
 Paragraph----The game ends when a player attacks and captures the opponent's flag or when a player cannot move a piece or attack.
 Header----Specialist Pieces
-Paragraph----The Spy (1) has one mission: Beat the Marshal (10)! If a spy attacks a Marshan (10), the Marshal loses and is removed from the game. However, if the Marshal attacks the Spy first, the Spy loses and is removed. If a Spy is attacked by any piece, it is removed.
+Paragraph----The Spy (1) has one mission: Beat the Marshal (10)! If a spy attacks a Marshal (10), the Marshal loses and is removed from the game. However, if the Marshal attacks the Spy first, the Spy loses and is removed. If a Spy is attacked by any piece, it is removed.
 Paragraph----The Scout (2) can move across any number of open squares forward, backward or sideways but only in a straight line. They may not move diagonally. Scouts can move and attack in the same turn, but again, only in a straight line. Note, moving more than 1 space will reveal the scout's identitity.
 Paragraph----The Miner (3) When a miner attacks a bomb, the bomb is removed from the board. The Miner then moves into the bomb's square.
