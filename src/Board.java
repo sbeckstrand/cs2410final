@@ -1,5 +1,9 @@
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
@@ -15,6 +19,16 @@ public class Board {
     GridPane clickRectangles;
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
+
+    int fromX = 999;
+    int toX = 999;
+    int fromY = 999;
+    int toY = 999;
+
+    IntegerProperty fromXProp = new SimpleIntegerProperty(999);
+    IntegerProperty toXProp = new SimpleIntegerProperty(999);
+    IntegerProperty fromYProp = new SimpleIntegerProperty(999);
+    IntegerProperty toYProp = new SimpleIntegerProperty(999);
 
     public Board() throws FileNotFoundException {
 
@@ -56,8 +70,8 @@ public class Board {
         clickRectangles.setPrefSize(10,10);
         for (int i=0; i<10; i++) {
             for (int j=0;j<10;j++) {
-                int y = j;
-                int x = i;
+                int y = i;
+                int x = j;
                 Rectangle clickRectangle = new Rectangle(50,50);
                 clickRectangle.setFill(Color.BLUE);
                 clickRectangle.setStroke(Color.BLACK);
@@ -70,9 +84,58 @@ public class Board {
 //                clickRectangle.setOnMouseExited(e -> {
 //                    clickRectangle.opacityProperty().setValue(0);
 //                });
+
+
                 clickRectangle.setOnMouseClicked(e -> {
-                    clearRectangleTransparency();
-                    showMoveRectangles(y,x);
+                    clickRectangles.requestFocus();
+                    clickRectangle.setOnKeyPressed(f -> {
+                        if (f.getCode().compareTo(KeyCode.R) == 0) {
+                            resetCoordinates();
+                        }
+                    });
+
+                    if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
+                        if (pieceArray[x][y].getMoveDistance() > 0) {
+                            clearRectangleTransparency();
+                            showMoveRectangles(x, y);
+                            fromX = x;
+                            fromY = y;
+                            fromXProp.setValue(x);
+                            fromYProp.setValue(y);
+                        }
+                    }
+                    else if ((fromX != 999 && fromY != 999) && (rectangleArray[x][y].getOpacity() == 0.5)) {
+                        if (pieceArray[x][y] != null && pieceArray[x][y].getColor().compareTo(pieceArray[fromX][fromY].getColor())!=0) {
+                            return;
+                        }
+                        toX = x;
+                        toY = y;
+                        toXProp.setValue(x);
+                        toYProp.setValue(y);
+                        clearRectangleTransparency();
+                        if (pieceArray[toX][toY] == null) {
+                            pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                            pieceArray[fromX][fromY] = null;
+                            try {
+                                updateBoard();
+                                fromX = 999;
+                                fromY = 999;
+                                toX = 999;
+                                toY = 999;
+                                fromXProp.setValue(999);
+                                fromYProp.setValue(999);
+                                toXProp.setValue(999);
+                                toYProp.setValue(999);
+                            } catch (FileNotFoundException ex) {
+                                ex.printStackTrace();
+                            }
+                        }
+                    }
+                    System.out.println("FromX: " + fromX);
+                    System.out.println("FromY: " + fromY);
+                    System.out.println("ToX: " + toX);
+                    System.out.println("ToY: " + toY);
+                    System.out.println();
                 });
 
                 clickRectangles.add(clickRectangle,j,i);
@@ -122,6 +185,21 @@ public class Board {
     public void setPiece(int currentX, int currentY, int newX, int newY, Piece piece) throws FileNotFoundException {
 
         updateBoard();
+    }
+
+    public void resetCoordinates() {
+        fromX = 999;
+        fromY = 999;
+        toX = 999;
+        toY = 999;
+
+        clearRectangleTransparency();
+
+        System.out.println("FromX: " + fromX);
+        System.out.println("FromY: " + fromY);
+        System.out.println("ToX: " + toX);
+        System.out.println("ToY: " + toY);
+        System.out.println();
     }
 
     public void showMoveRectangles(int xPos, int yPos) {
@@ -192,8 +270,8 @@ public class Board {
         int leftY = yPos;
         int leftMoves = moves;
 
-        while (leftY > 0 && leftMoves > 0) {
-            leftY--;
+        while (leftX > 0 && leftMoves > 0) {
+            leftX--;
             if (isInLake(leftX,leftY)) { break; }
 
             if ((pieceArray[leftX][leftY] != null) &&
@@ -216,8 +294,8 @@ public class Board {
         int rightY = yPos;
         int rightMoves = moves;
 
-        while (rightY < 9 && rightMoves > 0) {
-            rightY++;
+        while (rightX < 9 && rightMoves > 0) {
+            rightX++;
             if (isInLake(rightX,rightY)) { break; }
 
             if ((pieceArray[rightX][rightY] != null) &&
