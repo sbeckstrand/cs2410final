@@ -1,4 +1,5 @@
 Paragraph----Disclaimer: We do not own any rights to the game stratego, or to the Mario series used to make the character assets. This program  was created for a school assignment at Utah State University (CS2410) and we have no intention of making money from it.
 Paragraph----Created by: Preston Bruner, Logan Smith, Stephen Beckstrand
 Paragraph----Music: Pacing - Chad Crouch
+Paragraph----Title font used: https://www.dafont.com/seagram-tfb.font?text=Stratego&back=theme
 Paragraph----Version: Beta 0.0.0
