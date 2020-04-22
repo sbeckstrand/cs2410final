@@ -25,6 +25,7 @@ public class GameUI {
 
     public GameUI() throws FileNotFoundException {
         layout = new BorderPane();
+        this.board = new Board();
 
 
         // Left ---------------------------------------------------------
@@ -41,6 +42,9 @@ public class GameUI {
             }
         }
 
+        StackPane blueGrids = new StackPane();
+        blueGrids.getChildren().addAll(topPane, board.getCapturedBlue());
+
         Rectangle bg = new Rectangle(75,94);
         bg.setFill(Color.WHITE);
 
@@ -56,10 +60,12 @@ public class GameUI {
             }
         }
 
-        leftVbox.getChildren().addAll(topPane,bg,bottomPane);
+        StackPane redGrids = new StackPane();
+        redGrids.getChildren().addAll(bottomPane, board.getCapturedRed());
 
+        leftVbox.getChildren().addAll(blueGrids,bg,redGrids);
+//        leftVbox.getChildren().addAll(topPane, bg, bottomPane);
         // Center ---------------------------------------------------------
-        this.board = new Board();
 
         StackPane grids = new StackPane();
         grids.getChildren().addAll(board.getBgImageView(),board.getMainBoard(),board.getPiecesBoard(),board.getClickRectangles());

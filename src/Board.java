@@ -20,6 +20,8 @@ public class Board {
     GridPane mainBoard;
     GridPane piecesBoard;
     GridPane clickRectangles;
+    GridPane capturedRed;
+    GridPane capturedBlue;
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
     ImageView[][] redPieces;
@@ -90,6 +92,13 @@ public class Board {
                 piecesBoard.add(r1,j,i);
             }
         }
+
+        capturedRed = new GridPane();
+        capturedRed.setPrefSize(5,8);
+
+        capturedBlue = new GridPane();
+        capturedBlue.setPrefSize(5,8);
+
 
         clickRectangles = new GridPane();
         rectangleArray = new Rectangle[10][10];
@@ -163,32 +172,68 @@ public class Board {
                             int defender = pieceArray[toX][toY].getValue();
                             if (defender == 100){
                                 //case for win
+                                try {
+                                    removePiece(pieceArray[toX][toY]);
+                                } catch (FileNotFoundException ex) {
+                                    ex.printStackTrace();
+                                }
                                 pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                 pieceArray[fromX][fromY] = null;
                                 // create win window, and end game.
                             } else if (defender == 99) { // case for attacks a bomb
                                 if (attacker == 3){
                                     //attacker wins
+                                    try {
+                                        removePiece(pieceArray[toX][toY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
                                     pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                     pieceArray[fromX][fromY] = null;
                                 } else {
                                     //attacker loses
+                                    try {
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
                                     pieceArray[fromX][fromY] = null;
                                 }
                             } else if (defender == 10 && attacker == 1) {
                                 // attacker wins
+                                try {
+                                    removePiece(pieceArray[toX][toY]);
+                                } catch (FileNotFoundException ex) {
+                                    ex.printStackTrace();
+                                }
                                 pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                 pieceArray[fromX][fromY] = null;
                             } else { // general case for comparing pieces.
                                 if (attacker > defender) {
                                     // attacker wins
+                                    try {
+                                        removePiece(pieceArray[toX][toY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
                                     pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                     pieceArray[fromX][fromY] = null;
                                 } else if (attacker < defender) {
                                     // defender wins
+                                    try {
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
                                     pieceArray[fromX][fromY] = null;
                                 } else {
                                     //its a tie, and they both lose.
+                                    try {
+                                        removePiece(pieceArray[toX][toY]);
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
                                     pieceArray[fromX][fromY] = null;
                                     pieceArray[toX][toY] = null;
                                 }
@@ -281,6 +326,14 @@ public class Board {
 
     public GridPane getClickRectangles() {
         return clickRectangles;
+    }
+
+    public GridPane getCapturedRed() {
+        return capturedRed;
+    }
+
+    public GridPane getCapturedBlue() {
+        return capturedBlue;
     }
 
     public Piece[][] getPieceArray() {
@@ -509,6 +562,9 @@ public class Board {
             }
         }
     }
+    int blueX = 0; int blueY = 0;
+    int redX = 0; int redY = 0;
+
 
     private void removePiece(Piece piece) throws FileNotFoundException {
         String imageName = "";
@@ -527,30 +583,21 @@ public class Board {
         imageView.setFitWidth(26);
         imageView.setFitHeight(26);
 
-        if (piece.getColor().equals("blue")){
-            updateArray(bluePieces, imageView);
+        if (piece.getColor().equals("b")){
+            capturedBlue.add(imageView,blueX,blueY);
+            blueX++;
+            if (blueX > 4){
+                blueX = 0;
+                blueY++;
+            }
         } else {
-            updateArray(redPieces, imageView);
-        }
-    }
-
-    private void updateArray(ImageView[][] arr, ImageView image){
-        for (int i = 0; i < arr.length; i++){
-            for (int j = 0; j < arr[i].length; j++){
-                if (arr[i][j] == null){
-                    arr[i][j] = image;
-                    break;
-                }
+            capturedRed.add(imageView,redX,redY);
+            redX++;
+            if (redX > 4){
+                redX = 0;
+                redY++;
             }
         }
-    }
-
-    public ImageView[][] getBluePieces() {
-        return bluePieces;
-    }
-
-    public ImageView[][] getRedPieces() {
-        return redPieces;
     }
 }
 
