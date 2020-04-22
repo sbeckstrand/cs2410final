@@ -20,6 +20,8 @@ public class Board {
     GridPane mainBoard;
     GridPane piecesBoard;
     GridPane clickRectangles;
+    GridPane capturedRed;
+    GridPane capturedBlue;
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
     ImageView[][] redPieces;
@@ -252,6 +254,14 @@ public class Board {
 
     public GridPane getClickRectangles() {
         return clickRectangles;
+    }
+
+    public GridPane getCapturedRed() {
+        return capturedRed;
+    }
+
+    public GridPane getCapturedBlue() {
+        return capturedBlue;
     }
 
     public Piece[][] getPieceArray() {
