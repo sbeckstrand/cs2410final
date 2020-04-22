@@ -6,8 +6,6 @@ import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.net.URL;
-import java.nio.file.Paths;
 
 public class Main extends Application {
 
@@ -38,6 +36,23 @@ public class Main extends Application {
 
         Thread t1 = new Thread(playMusic);
         //t1.start();
+
+        // play victory theme
+        String VictoryPath = "assets/themes/general/Victory1.m4a";
+        Media VictoryMedia = new Media(new File(VictoryPath).toURI().toString());
+        MediaPlayer VictoryPlayer = new MediaPlayer(VictoryMedia);
+
+        Task playVictoryTheme = new Task() {
+            @Override
+            protected Object call() throws Exception {
+                VictoryPlayer.setCycleCount(1);
+                while (true) {
+                    VictoryPlayer.play();
+                }
+            }
+        };
+
+        Thread t2 = new Thread(playVictoryTheme);
         /** -----------------------------------------------------------------------------------**/
 
         stage.setScene(new Scene(mainMenu.getMenu()));
