@@ -90,7 +90,24 @@ public class GameUI {
 
         TextArea textArea = new TextArea();
         textArea.setPrefSize(200,150);
-        textArea.setText("Game updates will go here");
+
+        textArea.appendText("Red Player Starts!" + "\n");
+        
+        // Listener for changing between turns
+        board.getRedTurnProp().addListener( e -> {
+            if (board.getRedTurnProp().get() == true) {
+//                textArea.appendText("Red Player's Turn" + "\n");
+                textArea.appendText("Blue moved: ");
+                textArea.appendText("(" + board.getFromXCoord() + "," + board.getFromYCoord() + ") ");
+                textArea.appendText("to (" + board.getToXCoord() + "," + board.getToYCoord() + ") \n");
+            }
+            else {
+//                textArea.appendText("Blue Player's Turn" + "\n");
+                textArea.appendText("Red moved: ");
+                textArea.appendText("(" + board.getFromXCoord() + "," + board.getFromYCoord() + ") ");
+                textArea.appendText("to (" + board.getToXCoord() + "," + board.getToYCoord() + ") \n");
+            }
+        });
 
         Button quitButton = new Button("Quit");
         quitButton.setPrefWidth(200);
