@@ -30,6 +30,7 @@ public class Board {
 
     // redTurn true at the start since red goes first
     boolean redTurn = true;
+    boolean isRed = true;
     SimpleBooleanProperty redTurnProp = new SimpleBooleanProperty(true);
 
     //TODO: Add an "isRed" variable and add that to checks once we get the server stuff implemented
@@ -129,6 +130,33 @@ public class Board {
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
+
+                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
+                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
+                            try {
+                                // Print out updated board and RESET EVERYTHING
+
+                                // Switch turns
+                                redTurn = !redTurn;
+                                redTurnProp.set(redTurn);
+                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
+                                //TODO: Remove this ^^^^ line of code when server connectivity is up
+
+                                updateBoard();
+                                fromX = 999;
+                                fromY = 999;
+                                toX = 999;
+                                toY = 999;
+                                fromXProp.setValue(999);
+                                fromYProp.setValue(999);
+                                toXProp.setValue(999);
+                                toYProp.setValue(999);
+
+
+
+                            } catch (FileNotFoundException ex) {
+                                ex.printStackTrace();
+
                         } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
                                 || (pieceArray[toX][toY].getColor().equals("b") && redTurn)){
                             int attacker = pieceArray[fromX][fromY].getValue();
@@ -164,6 +192,7 @@ public class Board {
                                     pieceArray[fromX][fromY] = null;
                                     pieceArray[toX][toY] = null;
                                 }
+                              
                             }
                         }
                         try {
@@ -453,13 +482,21 @@ public class Board {
                     continue;
                 }
                 else {
-                    int value = pieceArray[b][a].getValue();
-                    if (value != 99 && value != 100) {
-                        imageName = pieceArray[b][a].getColor() + value;
-                    } else if (value == 99) {
-                        imageName = pieceArray[b][a].getColor() + "b";
-                    } else if (value == 100) {
-                        imageName = pieceArray[b][a].getColor() + "f";
+                    if (isRed && !pieceArray[b][a].getColor().equals("r")) {
+                        imageName = pieceArray[b][a].getColor() + "DEFAULT";
+                    }
+                    else if (!isRed && !pieceArray[b][a].getColor().equals("b")) {
+                        imageName = pieceArray[b][a].getColor() + "DEFAULT";
+                    }
+                    else {
+                        int value = pieceArray[b][a].getValue();
+                        if (value != 99 && value != 100) {
+                            imageName = pieceArray[b][a].getColor() + value;
+                        } else if (value == 99) {
+                            imageName = pieceArray[b][a].getColor() + "b";
+                        } else if (value == 100) {
+                            imageName = pieceArray[b][a].getColor() + "f";
+                        }
                     }
                 }
 
