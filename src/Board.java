@@ -22,6 +22,11 @@ public class Board {
     GridPane clickRectangles;
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
+    ImageView[][] redPieces;
+    ImageView[][] bluePieces;
+
+
+
 
     // redTurn true at the start since red goes first
     boolean redTurn = true;
@@ -116,9 +121,6 @@ public class Board {
                     }
                     // If you have selected your piece, check if the "to" coordinates are a valid green rectangle
                     else if ((fromX != 999 && fromY != 999) && (rectangleArray[x][y].getOpacity() == 0.5)) {
-                        if (pieceArray[x][y] != null && pieceArray[x][y].getColor().compareTo(pieceArray[fromX][fromY].getColor())!=0) {
-                            return;
-                        }
                         toX = x; toXCoord = x;
                         toY = y; toYCoord = y;
                         toXProp.setValue(x);
@@ -127,15 +129,15 @@ public class Board {
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
-                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
-                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
-                            //(pieceArray[toX][toY].getColor().equals("red") && !redTurn)
-                            //                                || (pieceArray[toX][toY].getColor().equals("blue") && redTurn)
-                        } else {
+                        } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
+                                || (pieceArray[toX][toY].getColor().equals("b") && redTurn)){
                             int attacker = pieceArray[fromX][fromY].getValue();
                             int defender = pieceArray[toX][toY].getValue();
                             if (defender == 100){
                                 //case for win
+                                pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                pieceArray[fromX][fromY] = null;
+                                // create win window, and end game.
                             } else if (defender == 99) { // case for attacks a bomb
                                 if (attacker == 3){
                                     //attacker wins
@@ -194,6 +196,21 @@ public class Board {
 
                 clickRectangles.add(clickRectangle,j,i);
                 rectangleArray[j][i] = clickRectangle;
+            }
+        }
+
+        // arrays to keep track of captured pieces, initially empty.
+        bluePieces = new ImageView[8][5];
+        for (ImageView[] i: bluePieces){
+            for (ImageView j: i){
+                j = null;
+            }
+        }
+
+        redPieces = new ImageView[8][5];
+        for (ImageView[] i: redPieces){
+            for (ImageView j: i){
+                j = null;
             }
         }
 
@@ -469,11 +486,30 @@ public class Board {
         imageView.setFitWidth(26);
         imageView.setFitHeight(26);
 
-//        if (piece.getColor().equals("blue")){
-//            topPane.add(imageView);
-//        } else {
-//            bottomPane.add(imageView);
-//        }
+        if (piece.getColor().equals("blue")){
+            updateArray(bluePieces, imageView);
+        } else {
+            updateArray(redPieces, imageView);
+        }
+    }
+
+    private void updateArray(ImageView[][] arr, ImageView image){
+        for (int i = 0; i < arr.length; i++){
+            for (int j = 0; j < arr[i].length; j++){
+                if (arr[i][j] == null){
+                    arr[i][j] = image;
+                    break;
+                }
+            }
+        }
+    }
+
+    public ImageView[][] getBluePieces() {
+        return bluePieces;
+    }
+
+    public ImageView[][] getRedPieces() {
+        return redPieces;
     }
 }
 
