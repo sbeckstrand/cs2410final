@@ -6,10 +6,8 @@ import javafx.scene.control.TextArea;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.input.KeyCode;
+import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
@@ -92,7 +90,7 @@ public class GameUI {
         textArea.setPrefSize(200,150);
 
         textArea.appendText("Red Player Starts!" + "\n");
-        
+
         // Listener for changing between turns
         board.getRedTurnProp().addListener( e -> {
             if (board.getRedTurnProp().get() == true) {
@@ -110,12 +108,27 @@ public class GameUI {
         });
 
         Button quitButton = new Button("Quit");
-        quitButton.setPrefWidth(200);
+        quitButton.setPrefWidth(100);
         quitButton.setPrefHeight(20);
         quitButton.setOnAction(e -> {
             Stage stage = (Stage) quitButton.getScene().getWindow();
             stage.close();
         });
+
+        Button resetMoves = new Button("Reset Move");
+        resetMoves.setPrefWidth(100);
+        resetMoves.setPrefHeight(20);
+        resetMoves.setOnAction(e -> {
+            board.resetCoordinates();
+        });
+        resetMoves.setOnKeyPressed(e -> {
+            if (e.getCode().equals(KeyCode.ESCAPE)) {
+                board.resetCoordinates();
+            }
+        });
+
+        HBox buttonHBox = new HBox();
+        buttonHBox.getChildren().addAll(resetMoves,quitButton);
 
         TextArea rssText = new TextArea();
         rssText.setPrefSize(200,253);
@@ -143,7 +156,7 @@ public class GameUI {
         readRSSThread.start();
         /** -----------------------------------------------------------------------------------**/
 
-        rightVbox.getChildren().addAll(title,textArea,quitButton,rssText);
+        rightVbox.getChildren().addAll(title,textArea,buttonHBox,rssText);
 
         layout.setLeft(leftVbox);
         layout.setCenter(grids);
