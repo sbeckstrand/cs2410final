@@ -120,4 +120,23 @@ public class Game {
     }
 
 
+    public boolean playerWin(Piece A, Piece B){ // when this returns true, the game will end, (needs to be written into the game logic probably.)
+        // Check if either of the revealed pieces is a flag
+        if(A.getValue() == 100 || B.getValue() == 100){
+            if(A.getValue()== 100) { // B is the winner
+                DisplayWinner(B.getColor());
+                return true;
+            } else { // A is the winner
+                DisplayWinner(A.getColor());
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void DisplayWinner(String winner){
+        // Make a window to display the winner
+        // So I'm thinking for this to have a separate window pop up with who the winner is, but I'm not entirely sure how to do this.
+    }
+
 }
