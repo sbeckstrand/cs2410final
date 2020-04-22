@@ -1,5 +1,8 @@
+import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.value.WritableBooleanValue;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -20,11 +23,28 @@ public class Board {
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
 
+    // redTurn true at the start since red goes first
+    boolean redTurn = true;
+    SimpleBooleanProperty redTurnProp = new SimpleBooleanProperty(true);
+
+    //TODO: Add an "isRed" variable and add that to checks once we get the server stuff implemented
+    //TODO:     so that we can set the client as the red player and server as blue (for example)
+
+
+    // Coordinates to use for comparisons
     int fromX = 999;
     int toX = 999;
     int fromY = 999;
     int toY = 999;
 
+    // Coordinates to print out
+    int fromXCoord;
+    int toXCoord;
+    int fromYCoord;
+    int toYCoord;
+
+    // Properties to bind to, etc.
+    // NO NEED TO USE THESE ANYWHERE ELSE AT THE MOMENT
     IntegerProperty fromXProp = new SimpleIntegerProperty(999);
     IntegerProperty toXProp = new SimpleIntegerProperty(999);
     IntegerProperty fromYProp = new SimpleIntegerProperty(999);
@@ -78,45 +98,39 @@ public class Board {
                 clickRectangle.setStrokeWidth(1);
                 clickRectangle.opacityProperty().set(0);
 
-//                clickRectangle.setOnMouseEntered(e -> {
-//                    clickRectangle.opacityProperty().setValue(.5);
-//                });
-//                clickRectangle.setOnMouseExited(e -> {
-//                    clickRectangle.opacityProperty().setValue(0);
-//                });
-
-
+                // Move logic based on which rectangle is clicked
                 clickRectangle.setOnMouseClicked(e -> {
-                    clickRectangles.requestFocus();
-                    clickRectangle.setOnKeyPressed(f -> {
-                        if (f.getCode().compareTo(KeyCode.R) == 0) {
-                            resetCoordinates();
-                        }
-                    });
-
-                    if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
-                        if (pieceArray[x][y].getMoveDistance() > 0) {
-                            clearRectangleTransparency();
-                            showMoveRectangles(x, y);
-                            fromX = x;
-                            fromY = y;
-                            fromXProp.setValue(x);
-                            fromYProp.setValue(y);
+                    // Checks to make sure it's your turn and you select one of your pieces
+                    if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) && (redTurn && pieceArray[x][y].getColor().compareTo("r") == 0)
+                            || ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) &&((!redTurn) && pieceArray[x][y].getColor().compareTo("b") == 0))) {
+                        if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
+                            if (pieceArray[x][y].getMoveDistance() > 0) {
+                                clearRectangleTransparency();
+                                showMoveRectangles(x, y);
+                                fromX = x; fromXCoord = x;
+                                fromY = y; fromYCoord = y;
+                                fromXProp.setValue(x);
+                                fromYProp.setValue(y);
+                            }
                         }
                     }
+                    // If you have selected your piece, check if the "to" coordinates are a valid green rectangle
                     else if ((fromX != 999 && fromY != 999) && (rectangleArray[x][y].getOpacity() == 0.5)) {
                         if (pieceArray[x][y] != null && pieceArray[x][y].getColor().compareTo(pieceArray[fromX][fromY].getColor())!=0) {
                             return;
                         }
-                        toX = x;
-                        toY = y;
+                        toX = x; toXCoord = x;
+                        toY = y; toYCoord = y;
                         toXProp.setValue(x);
                         toYProp.setValue(y);
                         clearRectangleTransparency();
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
+                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
+                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
                             try {
+                                // Print out updated board and RESET EVERYTHING
                                 updateBoard();
                                 fromX = 999;
                                 fromY = 999;
@@ -126,11 +140,17 @@ public class Board {
                                 fromYProp.setValue(999);
                                 toXProp.setValue(999);
                                 toYProp.setValue(999);
+
+                                // Switch turns
+                                redTurn = !redTurn;
+                                redTurnProp.set(redTurn);
+
                             } catch (FileNotFoundException ex) {
                                 ex.printStackTrace();
                             }
                         }
                     }
+                    // Debuggin print statements for convenience
                     System.out.println("FromX: " + fromX);
                     System.out.println("FromY: " + fromY);
                     System.out.println("ToX: " + toX);
@@ -155,6 +175,17 @@ public class Board {
         }
 
     }
+
+    // Add listener to this property
+    public SimpleBooleanProperty getRedTurnProp() {
+        return redTurnProp;
+    }
+
+    // Getters for positions
+    public int getFromXCoord() { return fromXCoord; }
+    public int getFromYCoord() { return fromYCoord; }
+    public int getToXCoord() { return toXCoord; }
+    public int getToYCoord() { return toYCoord; }
 
     public ImageView getBgImageView() {
         return bgImageView;
@@ -202,6 +233,13 @@ public class Board {
         System.out.println();
     }
 
+    /**
+     * Method to show (as green transparent rectangles) which moves on the gridpane are valid.
+     * Including a piece that isn't your color. Won't show green rectangles on your own colored pieces, since
+     * you can't move onto yourself
+     * @param xPos x Coordinate
+     * @param yPos y Coordinate
+     */
     public void showMoveRectangles(int xPos, int yPos) {
         if (pieceArray[xPos][yPos] == null) {
             return;
