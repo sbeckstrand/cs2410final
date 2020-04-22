@@ -28,7 +28,7 @@ public class Game {
         boolean blueTurn = true;
 
         UI = new GameUI();
-        Board gameBoard = UI.getBoard();
+//        Board gameBoard = UI.getBoard();
         pieces = buildPieces();
 
         randomizePlacement();
