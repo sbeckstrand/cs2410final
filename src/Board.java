@@ -223,6 +223,10 @@ public class Board {
         fromY = 999;
         toX = 999;
         toY = 999;
+        fromXProp.setValue(999);
+        fromYProp.setValue(999);
+        toXProp.setValue(999);
+        toYProp.setValue(999);
 
         clearRectangleTransparency();
 
