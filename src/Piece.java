@@ -24,13 +24,9 @@ public class Piece {
         this.color = color;
     }
 
-    public int getValue() {
-        return this.value;
-    }
+    public int getValue() { return this.value; }
 
-    public int getMoveDistance() {
-        return this.moveDistance;
-    }
+    public int getMoveDistance() { return this.moveDistance; }
 
     public String getColor() { return this.color; }
 
