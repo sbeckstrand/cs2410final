@@ -1,5 +1,8 @@
+import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.value.WritableBooleanValue;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -19,6 +22,10 @@ public class Board {
     GridPane clickRectangles;
     Piece[][] pieceArray;
     Rectangle[][] rectangleArray;
+
+    boolean redTurn = true;
+    SimpleBooleanProperty redTurnProp = new SimpleBooleanProperty(true);
+
 
     int fromX = 999;
     int toX = 999;
@@ -87,21 +94,25 @@ public class Board {
 
 
                 clickRectangle.setOnMouseClicked(e -> {
-                    clickRectangles.requestFocus();
-                    clickRectangle.setOnKeyPressed(f -> {
-                        if (f.getCode().compareTo(KeyCode.R) == 0) {
-                            resetCoordinates();
-                        }
-                    });
+//                    clickRectangles.requestFocus();
+//                    clickRectangle.setOnKeyPressed(f -> {
+//                        if (f.getCode().compareTo(KeyCode.R) == 0) {
+//                            resetCoordinates();
+//                        }
+//                    });
 
-                    if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
-                        if (pieceArray[x][y].getMoveDistance() > 0) {
-                            clearRectangleTransparency();
-                            showMoveRectangles(x, y);
-                            fromX = x;
-                            fromY = y;
-                            fromXProp.setValue(x);
-                            fromYProp.setValue(y);
+                    // Checks to make sure it's your turn and you select one of your pieces
+                    if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) && (redTurn && pieceArray[x][y].getColor().compareTo("r") == 0)
+                            || ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) &&((!redTurn) && pieceArray[x][y].getColor().compareTo("b") == 0))) {
+                        if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
+                            if (pieceArray[x][y].getMoveDistance() > 0) {
+                                clearRectangleTransparency();
+                                showMoveRectangles(x, y);
+                                fromX = x;
+                                fromY = y;
+                                fromXProp.setValue(x);
+                                fromYProp.setValue(y);
+                            }
                         }
                     }
                     else if ((fromX != 999 && fromY != 999) && (rectangleArray[x][y].getOpacity() == 0.5)) {
@@ -126,6 +137,10 @@ public class Board {
                                 fromYProp.setValue(999);
                                 toXProp.setValue(999);
                                 toYProp.setValue(999);
+
+                                redTurn = !redTurn;
+                                redTurnProp.set(redTurn);
+
                             } catch (FileNotFoundException ex) {
                                 ex.printStackTrace();
                             }
@@ -154,6 +169,11 @@ public class Board {
             }
         }
 
+    }
+
+    // Add listener to this property
+    public SimpleBooleanProperty getRedTurnProp() {
+        return redTurnProp;
     }
 
     public ImageView getBgImageView() {
