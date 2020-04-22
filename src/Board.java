@@ -129,25 +129,59 @@ public class Board {
                             pieceArray[fromX][fromY] = null;
                             /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
                             /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
-                            try {
-                                // Print out updated board and RESET EVERYTHING
-                                updateBoard();
-                                fromX = 999;
-                                fromY = 999;
-                                toX = 999;
-                                toY = 999;
-                                fromXProp.setValue(999);
-                                fromYProp.setValue(999);
-                                toXProp.setValue(999);
-                                toYProp.setValue(999);
-
-                                // Switch turns
-                                redTurn = !redTurn;
-                                redTurnProp.set(redTurn);
-
-                            } catch (FileNotFoundException ex) {
-                                ex.printStackTrace();
+                            //(pieceArray[toX][toY].getColor().equals("red") && !redTurn)
+                            //                                || (pieceArray[toX][toY].getColor().equals("blue") && redTurn)
+                        } else {
+                            int attacker = pieceArray[fromX][fromY].getValue();
+                            int defender = pieceArray[toX][toY].getValue();
+                            if (defender == 100){
+                                //case for win
+                            } else if (defender == 99) { // case for attacks a bomb
+                                if (attacker == 3){
+                                    //attacker wins
+                                    pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                    pieceArray[fromX][fromY] = null;
+                                } else {
+                                    //attacker loses
+                                    pieceArray[fromX][fromY] = null;
+                                }
+                            } else if (defender == 10 && attacker == 1) {
+                                // attacker wins
+                                pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                pieceArray[fromX][fromY] = null;
+                            } else { // general case for comparing pieces.
+                                if (attacker > defender) {
+                                    // attacker wins
+                                    pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                    pieceArray[fromX][fromY] = null;
+                                } else if (attacker < defender) {
+                                    // defender wins
+                                    pieceArray[fromX][fromY] = null;
+                                } else {
+                                    //its a tie, and they both lose.
+                                    pieceArray[fromX][fromY] = null;
+                                    pieceArray[toX][toY] = null;
+                                }
                             }
+                        }
+                        try {
+                            // Print out updated board and RESET EVERYTHING
+                            updateBoard();
+                            fromX = 999;
+                            fromY = 999;
+                            toX = 999;
+                            toY = 999;
+                            fromXProp.setValue(999);
+                            fromYProp.setValue(999);
+                            toXProp.setValue(999);
+                            toYProp.setValue(999);
+
+                            // Switch turns
+                            redTurn = !redTurn;
+                            redTurnProp.set(redTurn);
+
+                        } catch (FileNotFoundException ex) {
+                            ex.printStackTrace();
                         }
                     }
                     // Debuggin print statements for convenience
@@ -416,6 +450,30 @@ public class Board {
                 piecesBoard.add(imageView,b,a);
             }
         }
+    }
+
+    private void removePiece(Piece piece) throws FileNotFoundException {
+        String imageName = "";
+        int value = piece.getValue();
+        if (value != 99 && value != 100) {
+            imageName = piece.getColor() + value;
+        } else if (value == 99) {
+            imageName = piece.getColor() + "b";
+        } else if (value == 100) {
+            imageName = piece.getColor() + "f";
+        }
+
+        FileInputStream imageFile = new FileInputStream("assets/themes/mario/pieces/" + imageName + ".png");
+        Image pieceGraphic = new Image(imageFile);
+        ImageView imageView = new ImageView(pieceGraphic);
+        imageView.setFitWidth(26);
+        imageView.setFitHeight(26);
+
+//        if (piece.getColor().equals("blue")){
+//            topPane.add(imageView);
+//        } else {
+//            bottomPane.add(imageView);
+//        }
     }
 }
 
