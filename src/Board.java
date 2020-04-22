@@ -25,6 +25,7 @@ public class Board {
 
     // redTurn true at the start since red goes first
     boolean redTurn = true;
+    boolean isRed = true;
     SimpleBooleanProperty redTurnProp = new SimpleBooleanProperty(true);
 
     //TODO: Add an "isRed" variable and add that to checks once we get the server stuff implemented
@@ -131,6 +132,13 @@ public class Board {
                             /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
                             try {
                                 // Print out updated board and RESET EVERYTHING
+
+                                // Switch turns
+                                redTurn = !redTurn;
+                                redTurnProp.set(redTurn);
+                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
+                                //TODO: Remove this ^^^^ line of code when server connectivity is up
+
                                 updateBoard();
                                 fromX = 999;
                                 fromY = 999;
@@ -141,9 +149,7 @@ public class Board {
                                 toXProp.setValue(999);
                                 toYProp.setValue(999);
 
-                                // Switch turns
-                                redTurn = !redTurn;
-                                redTurnProp.set(redTurn);
+
 
                             } catch (FileNotFoundException ex) {
                                 ex.printStackTrace();
@@ -402,13 +408,21 @@ public class Board {
                     continue;
                 }
                 else {
-                    int value = pieceArray[b][a].getValue();
-                    if (value != 99 && value != 100) {
-                        imageName = pieceArray[b][a].getColor() + value;
-                    } else if (value == 99) {
-                        imageName = pieceArray[b][a].getColor() + "b";
-                    } else if (value == 100) {
-                        imageName = pieceArray[b][a].getColor() + "f";
+                    if (isRed && !pieceArray[b][a].getColor().equals("r")) {
+                        imageName = pieceArray[b][a].getColor() + "DEFAULT";
+                    }
+                    else if (!isRed && !pieceArray[b][a].getColor().equals("b")) {
+                        imageName = pieceArray[b][a].getColor() + "DEFAULT";
+                    }
+                    else {
+                        int value = pieceArray[b][a].getValue();
+                        if (value != 99 && value != 100) {
+                            imageName = pieceArray[b][a].getColor() + value;
+                        } else if (value == 99) {
+                            imageName = pieceArray[b][a].getColor() + "b";
+                        } else if (value == 100) {
+                            imageName = pieceArray[b][a].getColor() + "f";
+                        }
                     }
                 }
 
