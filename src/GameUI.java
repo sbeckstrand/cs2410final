@@ -1,3 +1,5 @@
+import javafx.animation.Animation;
+import javafx.animation.FadeTransition;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.concurrent.Task;
@@ -90,8 +92,30 @@ public class GameUI {
         titleText.setFill(Color.WHITE);
         titleText.setFont(strategoFont);
         DropShadow ds = new DropShadow();
+
+        Task titleFade = new Task() {
+            @Override
+            protected Object call() {
+                FadeTransition titleFade = new FadeTransition(Duration.seconds(10),titleText);
+                titleFade.setDelay(Duration.seconds(5));
+                titleFade.setFromValue(1);
+                titleFade.setToValue(0);
+                titleFade.setAutoReverse(true);
+                titleFade.getDelay();
+                titleFade.setCycleCount(Animation.INDEFINITE);
+                titleFade.play();
+                return null;
+            }
+        };
+
+        titleFade.run();
+
+        Text titleTextRED = new Text("Stratego");
+        titleTextRED.setFill(Color.DARKRED);
+        titleTextRED.setFont(strategoFont);
+
         titleText.setEffect(ds);
-        title.getChildren().addAll(titleBox,titleText);
+        title.getChildren().addAll(titleBox,titleTextRED,titleText);
 
         TextArea textArea = new TextArea();
         textArea.setPrefSize(200,150);
