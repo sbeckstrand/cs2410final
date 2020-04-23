@@ -154,15 +154,8 @@ public class Board {
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
-<<<<<<< HEAD
                         } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
-                                || (pieceArray[toX][toY].getColor().equals("b") && redTurn)){
-=======
-                        }
-
-                        else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
                                 || (pieceArray[toX][toY].getColor().equals("b") && redTurn)) {
->>>>>>> 767d82a907c91c93a60b21df4886d4d22e5e8f24
                             int attacker = pieceArray[fromX][fromY].getValue();
                             int defender = pieceArray[toX][toY].getValue();
                             if (defender == 100) {
@@ -171,6 +164,7 @@ public class Board {
                                     stopBGMusic();
                                     playWinMusic();
                                     removePiece(pieceArray[toX][toY]);
+                                    Winner winner = new Winner(pieceArray[fromX][fromY].getColor());
                                 } catch (FileNotFoundException ex) {
                                     ex.printStackTrace();
                                 }
@@ -240,12 +234,7 @@ public class Board {
                             // Switch turns
                             redTurn = !redTurn;
                             redTurnProp.set(redTurn);
-<<<<<<< HEAD
-                            isRed = !isRed;
-
-=======
                             isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
->>>>>>> 767d82a907c91c93a60b21df4886d4d22e5e8f24
                             // Print out updated board and RESET EVERYTHING
                             updateBoard();
                             fromX = 999;
@@ -256,10 +245,6 @@ public class Board {
                             fromYProp.setValue(999);
                             toXProp.setValue(999);
                             toYProp.setValue(999);
-<<<<<<< HEAD
-
-=======
->>>>>>> 767d82a907c91c93a60b21df4886d4d22e5e8f24
                         } catch (FileNotFoundException ex) {
                             ex.printStackTrace();
                         }
