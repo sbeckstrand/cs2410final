@@ -156,68 +156,52 @@ public class Board {
                             pieceArray[fromX][fromY] = null;
                         }
 
-//                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
-//                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
-//                            try {
-//                                // Print out updated board and RESET EVERYTHING
-//
-//                                // Switch turns
-//                                redTurn = !redTurn;
-//                                redTurnProp.set(redTurn);
-//                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
-//                                //TODO: Remove this ^^^^ line of code when server connectivity is up
-//
-//                                updateBoard();
-//                                fromX = 999;
-//                                fromY = 999;
-//                                toX = 999;
-//                                toY = 999;
-//                                fromXProp.setValue(999);
-//                                fromYProp.setValue(999);
-//                                toXProp.setValue(999);
-//                                toYProp.setValue(999);
-//
-//
-//                            } catch (FileNotFoundException ex) {
-//                                ex.printStackTrace();
-//
-//                            }
-                            else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
-                                    || (pieceArray[toX][toY].getColor().equals("b") && redTurn)) {
-                                int attacker = pieceArray[fromX][fromY].getValue();
-                                int defender = pieceArray[toX][toY].getValue();
-                                if (defender == 100) {
-                                    //case for win
+                        else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
+                                || (pieceArray[toX][toY].getColor().equals("b") && redTurn)) {
+                            int attacker = pieceArray[fromX][fromY].getValue();
+                            int defender = pieceArray[toX][toY].getValue();
+                            if (defender == 100) {
+                                //case for win
+                                try {
+                                    stopBGMusic();
+                                    playWinMusic();
+                                    removePiece(pieceArray[toX][toY]);
+                                } catch (FileNotFoundException ex) {
+                                    ex.printStackTrace();
+                                }
+                                pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                pieceArray[fromX][fromY] = null;
+                                // create win window, and end game.
+                            } else if (defender == 99) { // case for attacks a bomb
+                                if (attacker == 3) {
+                                    //attacker wins
                                     try {
-                                        stopBGMusic();
-                                        playWinMusic();
                                         removePiece(pieceArray[toX][toY]);
                                     } catch (FileNotFoundException ex) {
                                         ex.printStackTrace();
                                     }
                                     pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                     pieceArray[fromX][fromY] = null;
-                                    // create win window, and end game.
-                                } else if (defender == 99) { // case for attacks a bomb
-                                    if (attacker == 3) {
-                                        //attacker wins
-                                        try {
-                                            removePiece(pieceArray[toX][toY]);
-                                        } catch (FileNotFoundException ex) {
-                                            ex.printStackTrace();
-                                        }
-                                        pieceArray[toX][toY] = pieceArray[fromX][fromY];
-                                        pieceArray[fromX][fromY] = null;
-                                    } else {
-                                        //attacker loses
-                                        try {
-                                            removePiece(pieceArray[fromX][fromY]);
-                                        } catch (FileNotFoundException ex) {
-                                            ex.printStackTrace();
-                                        }
-                                        pieceArray[fromX][fromY] = null;
+                                } else {
+                                    //attacker loses
+                                    try {
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
                                     }
-                                } else if (defender == 10 && attacker == 1) {
+                                    pieceArray[fromX][fromY] = null;
+                                }
+                            } else if (defender == 10 && attacker == 1) {
+                                // attacker wins
+                                try {
+                                    removePiece(pieceArray[toX][toY]);
+                                } catch (FileNotFoundException ex) {
+                                    ex.printStackTrace();
+                                }
+                                pieceArray[toX][toY] = pieceArray[fromX][fromY];
+                                pieceArray[fromX][fromY] = null;
+                            } else { // general case for comparing pieces.
+                                if (attacker > defender) {
                                     // attacker wins
                                     try {
                                         removePiece(pieceArray[toX][toY]);
@@ -226,66 +210,52 @@ public class Board {
                                     }
                                     pieceArray[toX][toY] = pieceArray[fromX][fromY];
                                     pieceArray[fromX][fromY] = null;
-                                } else { // general case for comparing pieces.
-                                    if (attacker > defender) {
-                                        // attacker wins
-                                        try {
-                                            removePiece(pieceArray[toX][toY]);
-                                        } catch (FileNotFoundException ex) {
-                                            ex.printStackTrace();
-                                        }
-                                        pieceArray[toX][toY] = pieceArray[fromX][fromY];
-                                        pieceArray[fromX][fromY] = null;
-                                    } else if (attacker < defender) {
-                                        // defender wins
-                                        try {
-                                            removePiece(pieceArray[fromX][fromY]);
-                                        } catch (FileNotFoundException ex) {
-                                            ex.printStackTrace();
-                                        }
-                                        pieceArray[fromX][fromY] = null;
-                                    } else {
-                                        //its a tie, and they both lose.
-                                        try {
-                                            removePiece(pieceArray[toX][toY]);
-                                            removePiece(pieceArray[fromX][fromY]);
-                                        } catch (FileNotFoundException ex) {
-                                            ex.printStackTrace();
-                                        }
-                                        pieceArray[fromX][fromY] = null;
-                                        pieceArray[toX][toY] = null;
+                                } else if (attacker < defender) {
+                                    // defender wins
+                                    try {
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
                                     }
-
+                                    pieceArray[fromX][fromY] = null;
+                                } else {
+                                    //its a tie, and they both lose.
+                                    try {
+                                        removePiece(pieceArray[toX][toY]);
+                                        removePiece(pieceArray[fromX][fromY]);
+                                    } catch (FileNotFoundException ex) {
+                                        ex.printStackTrace();
+                                    }
+                                    pieceArray[fromX][fromY] = null;
+                                    pieceArray[toX][toY] = null;
                                 }
                             }
-                            try {
-                                // Switch turns
-                                redTurn = !redTurn;
-                                redTurnProp.set(redTurn);
-                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
-
-                                // Print out updated board and RESET EVERYTHING
-                                updateBoard();
-                                fromX = 999;
-                                fromY = 999;
-                                toX = 999;
-                                toY = 999;
-                                fromXProp.setValue(999);
-                                fromYProp.setValue(999);
-                                toXProp.setValue(999);
-                                toYProp.setValue(999);
-
-
-                            } catch (FileNotFoundException ex) {
-                                ex.printStackTrace();
-                            }
                         }
-                        // Debuggin print statements for convenience
-                        System.out.println("FromX: " + fromX);
-                        System.out.println("FromY: " + fromY);
-                        System.out.println("ToX: " + toX);
-                        System.out.println("ToY: " + toY);
-                        System.out.println();
+                        try {
+                            // Switch turns
+                            redTurn = !redTurn;
+                            redTurnProp.set(redTurn);
+                            isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
+                            // Print out updated board and RESET EVERYTHING
+                            updateBoard();
+                            fromX = 999;
+                            fromY = 999;
+                            toX = 999;
+                            toY = 999;
+                            fromXProp.setValue(999);
+                            fromYProp.setValue(999);
+                            toXProp.setValue(999);
+                            toYProp.setValue(999);
+                        } catch (FileNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                    // Debugging print statements for convenience
+                    System.out.println("FromX: " + fromX);
+                    System.out.println("FromY: " + fromY);
+                    System.out.println("ToX: " + toX);
+                    System.out.println("ToY: " + toY);
+                    System.out.println();
 
                 });
 
@@ -623,7 +593,7 @@ public class Board {
         }
     }
 
-    private void playBGMusic() {
+    public void playBGMusic() {
         Task playMusic = new Task() {
             @Override
             protected Object call() throws Exception {
@@ -638,12 +608,13 @@ public class Board {
         t1.start();
     }
 
-    private void stopBGMusic() {
+    public void stopBGMusic() {
         mediaPlayer.setVolume(0);
     }
 
-    private void resumeBGMusic() {
+    public void resumeBGMusic() {
         mediaPlayer.play();
+        mediaPlayer.setVolume(1);
     }
 
     private void playWinMusic() {
