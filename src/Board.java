@@ -139,33 +139,6 @@ public class Board {
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
-
-                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
-                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
-                            try {
-                                // Print out updated board and RESET EVERYTHING
-
-                                // Switch turns
-                                redTurn = !redTurn;
-                                redTurnProp.set(redTurn);
-                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
-                                //TODO: Remove this ^^^^ line of code when server connectivity is up
-
-                                updateBoard();
-                                fromX = 999;
-                                fromY = 999;
-                                toX = 999;
-                                toY = 999;
-                                fromXProp.setValue(999);
-                                fromYProp.setValue(999);
-                                toXProp.setValue(999);
-                                toYProp.setValue(999);
-
-
-
-                            } catch (FileNotFoundException ex) {
-                                ex.printStackTrace();
-
                         } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
                                 || (pieceArray[toX][toY].getColor().equals("b") && redTurn)){
                             int attacker = pieceArray[fromX][fromY].getValue();
@@ -241,6 +214,11 @@ public class Board {
                             }
                         }
                         try {
+                            // Switch turns
+                            redTurn = !redTurn;
+                            redTurnProp.set(redTurn);
+                            isRed = !isRed;
+
                             // Print out updated board and RESET EVERYTHING
                             updateBoard();
                             fromX = 999;
@@ -251,10 +229,6 @@ public class Board {
                             fromYProp.setValue(999);
                             toXProp.setValue(999);
                             toYProp.setValue(999);
-
-                            // Switch turns
-                            redTurn = !redTurn;
-                            redTurnProp.set(redTurn);
 
                         } catch (FileNotFoundException ex) {
                             ex.printStackTrace();
