@@ -154,9 +154,7 @@ public class Board {
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
-                        }
-
-                        else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
+                        } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
                                 || (pieceArray[toX][toY].getColor().equals("b") && redTurn)) {
                             int attacker = pieceArray[fromX][fromY].getValue();
                             int defender = pieceArray[toX][toY].getValue();
@@ -166,6 +164,7 @@ public class Board {
                                     stopBGMusic();
                                     playWinMusic();
                                     removePiece(pieceArray[toX][toY]);
+                                    Winner winner = new Winner(pieceArray[fromX][fromY].getColor());
                                 } catch (FileNotFoundException ex) {
                                     ex.printStackTrace();
                                 }
