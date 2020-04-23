@@ -1,25 +1,29 @@
-import javafx.application.Platform;
-import javafx.beans.property.BooleanProperty;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.value.WritableBooleanValue;
 import javafx.concurrent.Task;
+import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class Board {
     ImageView bgImageView;
@@ -32,6 +36,8 @@ public class Board {
     Rectangle[][] rectangleArray;
     ImageView[][] redPieces;
     ImageView[][] bluePieces;
+
+    boolean hasWon = false;
 
     // MUSIC
     String musicPath = "assets/themes/general/music.mp3";
@@ -161,6 +167,7 @@ public class Board {
                             if (defender == 100) {
                                 //case for win
                                 try {
+                                    hasWon = true;
                                     stopBGMusic();
                                     playWinMusic();
                                     removePiece(pieceArray[toX][toY]);
@@ -231,6 +238,9 @@ public class Board {
                             }
                         }
                         try {
+                            if (!hasWon) {
+                                playWaitAnimation();
+                            }
                             // Switch turns
                             redTurn = !redTurn;
                             redTurnProp.set(redTurn);
@@ -634,6 +644,60 @@ public class Board {
 
         Thread t2 = new Thread(playVictoryTheme);
         t2.start();
+    }
+
+    private void playWaitAnimation() throws FileNotFoundException {
+        Stage waitStage = new Stage();
+        Pane p1 = new Pane();
+        VBox textBox = new VBox();
+        Text switchPlayerText = new Text("Switch Players!");
+        switchPlayerText.xProperty().bind(p1.widthProperty().divide(2).subtract(330));
+        switchPlayerText.yProperty().bind(p1.heightProperty().divide(2).subtract(50));
+
+        // Font
+        FileInputStream fontInput2 = new FileInputStream("assets/Seagram tfb.ttf");
+        Font strategoFontSmall = Font.loadFont(fontInput2,100);
+        switchPlayerText.setFont(strategoFontSmall);
+
+        Text countDown = new Text("3");
+        countDown.setFill(Color.WHITE);
+        countDown.setFont(strategoFontSmall);
+        textBox.getChildren().addAll(switchPlayerText,countDown);
+
+        countDown.xProperty().bind(p1.widthProperty().divide(2).subtract(40));
+        countDown.yProperty().bind(p1.heightProperty().divide(2).add(80));
+
+        FileInputStream waitBGImage = new FileInputStream("assets/themes/general/WaitBGWood.png");
+        Image bgImageW = new Image(waitBGImage);
+        ImageView waitBG = new ImageView(bgImageW);
+        waitBG.setFitWidth(900);
+        waitBG.setFitHeight(520);
+
+//        p1.getChildren().add(textBox);
+        p1.getChildren().addAll(switchPlayerText,countDown);
+        p1.setPrefWidth(900);
+        p1.setPrefHeight(520);
+
+        StackPane stack = new StackPane();
+        stack.getChildren().addAll(waitBG,p1);
+
+        Scene s1 = new Scene(stack);
+        waitStage.setScene(s1);
+        waitStage.show();
+
+        Timeline toClose = new Timeline();
+        toClose.setCycleCount(5);
+        AtomicReference<Integer> count = new AtomicReference<>(Integer.parseInt(countDown.getText()));
+        AtomicReference<Integer> zero = new AtomicReference<>(0);
+        toClose.getKeyFrames().add(new KeyFrame(Duration.seconds(1), e -> {
+            count.getAndSet(count.get() - 1);
+            countDown.setText(count.toString());
+            if (count.get().equals(0)) {
+                waitStage.close();
+            }
+        }));
+        toClose.play();
+
     }
 }
 
