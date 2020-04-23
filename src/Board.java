@@ -259,12 +259,6 @@ public class Board {
                             ex.printStackTrace();
                         }
                     }
-                    // Debugging print statements for convenience
-//                    System.out.println("FromX: " + fromX);
-//                    System.out.println("FromY: " + fromY);
-//                    System.out.println("ToX: " + toX);
-//                    System.out.println("ToY: " + toY);
-//                    System.out.println();
 
                 });
 
