@@ -48,8 +48,8 @@ public class GameUI {
         StackPane blueGrids = new StackPane();
         blueGrids.getChildren().addAll(topPane, board.getCapturedBlue());
 
-        Rectangle bg = new Rectangle(75,94);
-        bg.setFill(Color.WHITE);
+        Rectangle bg = new Rectangle(130,94);
+        bg.setFill(Color.BLACK);
 
         GridPane bottomPane = new GridPane();
         bottomPane.setPrefSize(5,8);
@@ -86,8 +86,15 @@ public class GameUI {
         VBox rightVbox = new VBox();
 
         StackPane title = new StackPane();
-        Rectangle titleBox = new Rectangle(200,80);
-        titleBox.setFill(Color.TAN);
+//        Rectangle titleBox = new Rectangle(200,80);
+//        titleBox.setFill(Color.TAN);
+
+        FileInputStream titleBGImage = new FileInputStream("assets/themes/general/TitleBGWood.png");
+        Image bgImage = new Image(titleBGImage);
+        ImageView titleBG = new ImageView(bgImage);
+        titleBG.setFitWidth(200);
+        titleBG.setFitHeight(80);
+
         Text titleText = new Text("Stratego");
         titleText.setFill(Color.WHITE);
         titleText.setFont(strategoFont);
@@ -115,7 +122,7 @@ public class GameUI {
         titleTextRED.setFont(strategoFont);
 
         titleText.setEffect(ds);
-        title.getChildren().addAll(titleBox,titleTextRED,titleText);
+        title.getChildren().addAll(titleBG,titleTextRED,titleText);
 
         TextArea textArea = new TextArea();
         textArea.setPrefSize(200,150);
@@ -166,10 +173,10 @@ public class GameUI {
         rssText.setFont(Font.font(null,10));
 
         /** ---------------------------------- RSS FEED ---------------------------------------**/
+        ReadRSS rssReader = new ReadRSS("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom",rssText);
         Task rssTask = new Task() {
             @Override
             protected Object call() throws Exception {
-                ReadRSS rssReader = new ReadRSS("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom",rssText);
 
                 // Update RSS feed every minute
                 Timeline timelineRSS = new Timeline();
