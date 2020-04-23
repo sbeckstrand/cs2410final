@@ -2,6 +2,7 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.concurrent.Task;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.image.Image;
@@ -137,7 +138,7 @@ public class GameUI {
         buttonHBox.getChildren().addAll(resetMoves,quitButton);
 
         TextArea rssText = new TextArea();
-        rssText.setPrefSize(200,253);
+        rssText.setPrefSize(200,223);
         rssText.setFont(Font.font(null,10));
 
         /** ---------------------------------- RSS FEED ---------------------------------------**/
@@ -162,7 +163,19 @@ public class GameUI {
         readRSSThread.start();
         /** -----------------------------------------------------------------------------------**/
 
-        rightVbox.getChildren().addAll(title,textArea,buttonHBox,rssText);
+        // Music Mute toggle
+        CheckBox musicToggle = new CheckBox("Mute Music");
+        musicToggle.setPrefSize(200,30);
+        musicToggle.setOnAction(e -> {
+            if (musicToggle.isSelected()) {
+                board.stopBGMusic();
+            }
+            else {
+                board.resumeBGMusic();
+            }
+        });
+
+        rightVbox.getChildren().addAll(title,textArea,musicToggle,buttonHBox,rssText);
 
         layout.setLeft(leftVbox);
         layout.setCenter(grids);

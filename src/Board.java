@@ -1,19 +1,25 @@
+import javafx.application.Platform;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.value.WritableBooleanValue;
+import javafx.concurrent.Task;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.concurrent.TimeUnit;
 
 public class Board {
     ImageView bgImageView;
@@ -27,7 +33,10 @@ public class Board {
     ImageView[][] redPieces;
     ImageView[][] bluePieces;
 
-
+    // MUSIC
+    String musicPath = "assets/themes/general/music.mp3";
+    Media media = new Media(new File(musicPath).toURI().toString());
+    MediaPlayer mediaPlayer = new MediaPlayer(media);
 
 
     // redTurn true at the start since red goes first
@@ -59,6 +68,8 @@ public class Board {
     IntegerProperty toYProp = new SimpleIntegerProperty(999);
 
     public Board() throws FileNotFoundException {
+        // Start music
+        playBGMusic();
 
         // Image behind the grids
         FileInputStream bgImageFile = new FileInputStream("assets/themes/general/background.png");
@@ -104,10 +115,10 @@ public class Board {
         rectangleArray = new Rectangle[10][10];
         clickRectangles.setPrefSize(10,10);
         for (int i=0; i<10; i++) {
-            for (int j=0;j<10;j++) {
+            for (int j = 0; j < 10; j++) {
                 int y = i;
                 int x = j;
-                Rectangle clickRectangle = new Rectangle(50,50);
+                Rectangle clickRectangle = new Rectangle(50, 50);
                 clickRectangle.setFill(Color.BLUE);
                 clickRectangle.setStroke(Color.BLACK);
                 clickRectangle.setStrokeWidth(1);
@@ -117,13 +128,15 @@ public class Board {
                 clickRectangle.setOnMouseClicked(e -> {
                     // Checks to make sure it's your turn and you select one of your pieces
                     if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) && (redTurn && pieceArray[x][y].getColor().compareTo("r") == 0)
-                            || ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) &&((!redTurn) && pieceArray[x][y].getColor().compareTo("b") == 0))) {
+                            || ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null) && ((!redTurn) && pieceArray[x][y].getColor().compareTo("b") == 0))) {
                         if ((fromX == 999 && fromY == 999) && (pieceArray[x][y] != null)) {
                             if (pieceArray[x][y].getMoveDistance() > 0) {
                                 clearRectangleTransparency();
                                 showMoveRectangles(x, y);
-                                fromX = x; fromXCoord = x;
-                                fromY = y; fromYCoord = y;
+                                fromX = x;
+                                fromXCoord = x;
+                                fromY = y;
+                                fromYCoord = y;
                                 fromXProp.setValue(x);
                                 fromYProp.setValue(y);
                             }
@@ -131,48 +144,27 @@ public class Board {
                     }
                     // If you have selected your piece, check if the "to" coordinates are a valid green rectangle
                     else if ((fromX != 999 && fromY != 999) && (rectangleArray[x][y].getOpacity() == 0.5)) {
-                        toX = x; toXCoord = x;
-                        toY = y; toYCoord = y;
+                        toX = x;
+                        toXCoord = x;
+                        toY = y;
+                        toYCoord = y;
                         toXProp.setValue(x);
                         toYProp.setValue(y);
                         clearRectangleTransparency();
                         if (pieceArray[toX][toY] == null) {
                             pieceArray[toX][toY] = pieceArray[fromX][fromY];
                             pieceArray[fromX][fromY] = null;
+                        }
 
-                            /** ADD PIECE COMPARISON LOGIC HERE in an "else if" statement **/
-                            /** Compare based on the piece in the "from" coordinates and the piece in the "to" coordinates **/
-                            try {
-                                // Print out updated board and RESET EVERYTHING
-
-                                // Switch turns
-                                redTurn = !redTurn;
-                                redTurnProp.set(redTurn);
-                                isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
-                                //TODO: Remove this ^^^^ line of code when server connectivity is up
-
-                                updateBoard();
-                                fromX = 999;
-                                fromY = 999;
-                                toX = 999;
-                                toY = 999;
-                                fromXProp.setValue(999);
-                                fromYProp.setValue(999);
-                                toXProp.setValue(999);
-                                toYProp.setValue(999);
-
-
-
-                            } catch (FileNotFoundException ex) {
-                                ex.printStackTrace();
-
-                        } else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
-                                || (pieceArray[toX][toY].getColor().equals("b") && redTurn)){
+                        else if ((pieceArray[toX][toY].getColor().equals("r") && !redTurn)
+                                || (pieceArray[toX][toY].getColor().equals("b") && redTurn)) {
                             int attacker = pieceArray[fromX][fromY].getValue();
                             int defender = pieceArray[toX][toY].getValue();
-                            if (defender == 100){
+                            if (defender == 100) {
                                 //case for win
                                 try {
+                                    stopBGMusic();
+                                    playWinMusic();
                                     removePiece(pieceArray[toX][toY]);
                                 } catch (FileNotFoundException ex) {
                                     ex.printStackTrace();
@@ -181,7 +173,7 @@ public class Board {
                                 pieceArray[fromX][fromY] = null;
                                 // create win window, and end game.
                             } else if (defender == 99) { // case for attacks a bomb
-                                if (attacker == 3){
+                                if (attacker == 3) {
                                     //attacker wins
                                     try {
                                         removePiece(pieceArray[toX][toY]);
@@ -237,10 +229,13 @@ public class Board {
                                     pieceArray[fromX][fromY] = null;
                                     pieceArray[toX][toY] = null;
                                 }
-                              
                             }
                         }
                         try {
+                            // Switch turns
+                            redTurn = !redTurn;
+                            redTurnProp.set(redTurn);
+                            isRed = !isRed; // Swap turns for graphics TEST. REMOVE LATER
                             // Print out updated board and RESET EVERYTHING
                             updateBoard();
                             fromX = 999;
@@ -251,24 +246,20 @@ public class Board {
                             fromYProp.setValue(999);
                             toXProp.setValue(999);
                             toYProp.setValue(999);
-
-                            // Switch turns
-                            redTurn = !redTurn;
-                            redTurnProp.set(redTurn);
-
                         } catch (FileNotFoundException ex) {
                             ex.printStackTrace();
                         }
                     }
-                    // Debuggin print statements for convenience
+                    // Debugging print statements for convenience
                     System.out.println("FromX: " + fromX);
                     System.out.println("FromY: " + fromY);
                     System.out.println("ToX: " + toX);
                     System.out.println("ToY: " + toY);
                     System.out.println();
+
                 });
 
-                clickRectangles.add(clickRectangle,j,i);
+                clickRectangles.add(clickRectangle, j, i);
                 rectangleArray[j][i] = clickRectangle;
             }
         }
@@ -584,20 +575,66 @@ public class Board {
         imageView.setFitHeight(26);
 
         if (piece.getColor().equals("b")){
-            capturedBlue.add(imageView,blueX,blueY);
+            //capturedBlue.add(imageView,blueX,blueY);
+            capturedRed.add(imageView,blueX,blueY);
             blueX++;
             if (blueX > 4){
                 blueX = 0;
                 blueY++;
             }
         } else {
-            capturedRed.add(imageView,redX,redY);
+//            capturedRed.add(imageView,redX,redY);
+            capturedBlue.add(imageView,redX,redY);
             redX++;
             if (redX > 4){
                 redX = 0;
                 redY++;
             }
         }
+    }
+
+    public void playBGMusic() {
+        Task playMusic = new Task() {
+            @Override
+            protected Object call() throws Exception {
+                mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE);
+                while (true) {
+                    mediaPlayer.play();
+                }
+            }
+        };
+
+        Thread t1 = new Thread(playMusic);
+        t1.start();
+    }
+
+    public void stopBGMusic() {
+        mediaPlayer.setVolume(0);
+    }
+
+    public void resumeBGMusic() {
+        mediaPlayer.play();
+        mediaPlayer.setVolume(1);
+    }
+
+    private void playWinMusic() {
+        // play victory theme
+        String VictoryPath = "assets/themes/general/Victory1.m4a";
+        Media VictoryMedia = new Media(new File(VictoryPath).toURI().toString());
+        MediaPlayer VictoryPlayer = new MediaPlayer(VictoryMedia);
+
+        Task playVictoryTheme = new Task() {
+            @Override
+            protected Object call() throws Exception {
+                VictoryPlayer.setCycleCount(1);
+                while (true) {
+                    VictoryPlayer.play();
+                }
+            }
+        };
+
+        Thread t2 = new Thread(playVictoryTheme);
+        t2.start();
     }
 }
 
